@@ -5,4 +5,47 @@
     display: flex;
     justify-content: space-around;
     background-color: #202020;
+    
+}
+
+.links__cabeçalho{
+   
+    margin-top: 15px;
+}
+
+.Pesquisar__cabeçalho{
+
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.link__cabeçalho{
+    color: white;
+    list-style: none;
+    margin-top: 25px;
+    justify-content: center;
+
+}
+
+.Sabermais__Nav{
+    height: 30px;
+    width: 100%;
+    border: 2px solid;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #151515;
+    height: 30px;
+    margin: 1px;
+    width: 100%;
+}
+
+.link__Nav{
+    color: white;
+    list-style: none;
+    margin-top: 5px;
+
 }
