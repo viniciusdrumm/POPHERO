@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
 .cabeçalho{
     height: 50px;
     width: 100%;
@@ -49,3 +55,29 @@
     margin-top: 5px;
 
 }
+
+.Banner__Loki{
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.container__banner{
+
+    width: 100%;
+}
+
+.banner__capa{
+    width: 100%;
+    
+}
+.container__LogoLoki__1{
+
+  
+
+}
+.container__LogoLoki__2{
+
+   
+ 
+ }
