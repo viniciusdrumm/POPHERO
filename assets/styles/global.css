@@ -85,6 +85,8 @@
     left: 130px;
     top: 420px;
     text-decoration: none;
+    background: #ec1d24;
+    padding: 10px;
 }
 
 .Banner__Link2 {
@@ -93,4 +95,74 @@
     left: 180px;
     top: 420px;
     text-decoration: none;
+    background: #ec1d24;
+    padding: 10px;
 }
+
+
+.marvel .marvel__titulo {
+    position: relative;
+    font-size: 40px;
+    left: 100px;
+    top: 0px;
+    width: 210px;
+    height: 60px;
+
+}
+
+.marvel__imagens1 {
+    display: flex;
+    height: 200px;
+    justify-content:space-around;
+    margin: 5px 80px 5px 80px;
+}
+
+.marvel__textoImagem1 {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    margin: 5px 500px 5px 100px;
+}
+
+.marvel__textoImagem2 {
+    display: flex;
+    width: 350px;
+    height: 40px;
+    margin: -45px 300px 5px 500px;
+}
+
+.marvel__textoImagem3 {
+    display: flex;
+    width: 350px;
+    height: 40px;
+    margin: -45px 300px 5px 895px;
+}
+
+.marvel__imagens2 {
+    display: flex;
+    height: 200px;
+    justify-content:space-around;
+    margin: 5px 80px 5px 80px;
+}
+
+.marvel__textoImagem4 {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    margin: 5px 500px 5px 100px;
+}
+
+.marvel__textoImagem5 {
+    display: flex;
+    width: 350px;
+    height: 40px;
+    margin: -45px 300px 5px 500px;
+}
+
+.marvel__textoImagem6 {
+    display: flex;
+    width: 350px;
+    height: 40px;
+    margin: -45px 300px 5px 895px;
+}
+
