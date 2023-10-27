@@ -14,15 +14,22 @@
     text-decoration: none;
 }
 
-.links__cabeçalho {
+.cabeçalho .links__cabeçalho {
     
     color: white;
-    margin-top: 20px;
     text-decoration: none;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    padding: 5px;   
 }
 
 .pesquisar__cabeçalho {
-    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 0px;
+    top: 20px;
 }
 
 .logo__cabeçalho {
@@ -81,46 +88,50 @@
 .Banner__Link1 {
     color: rgb(255, 255, 255);
     position: relative;
-    left: 130px;
+    left: 100px;
     top: 420px;
     text-decoration: none;
     background: #ec1d24;
+    border-style:solid;
+    border-color: white;
     padding: 10px;
 }
 
 .Banner__Link2 {
     color: rgb(255, 255, 255);
     position: relative;
-    left: 180px;
+    left: 120px;
     top: 420px;
     text-decoration: none;
     background: #ec1d24;
+    border-style:solid;
+    border-color: white;
     padding: 10px;
 }
 
 .titulo {
     color: black;
     font-size: 40px;
-    margin: 100px 0px 20px 70px;
+    margin: 100px 0px 10px 90px;
 
 }
-
 
 .row {
     display: flex;
     justify-content: space-evenly;
-    padding:2%
+    padding:2%;
 }
 
 .image-container {
     position: relative;
     display: inline-block;
-    
+        
 }
 
 .image-container img {
-    width: 400px;
+    width: 350px;
     height: 200px;
+    margin: 10px 0px 0px 0px;
     
 }
 
@@ -128,7 +139,8 @@
     position: absolute; 
     color: rgb(0, 0, 0);
     text-align:start;
-    padding: 7px;
+    
+    
 }
 
 .text {
@@ -138,32 +150,195 @@
 
 .podcast {
     width: 100%;
-    height: 800px;
+    height: 650px;
     background-color: #202020;
+    background-image: url(/assets/images/home/image-6.png);
+    background-repeat: no-repeat;
+    background-position: 0px 80px;
     margin: 100px 0px 100px 0px;
 }
 
 .podcast__titulo {
     color: white;
-    font-size: 45px;
-    text-align: center;
     position: relative;
-    
-    
+    left: 480px;
+    top: 210px;
+    font-size: 55px;
 }
 
 .podcast__texto {
     color: white;
-    text-align: center;
+    position: relative;
+    left: 480px;
+    top: 220px;
+    width: 610px;
+    height: 72px;
+    font-size: 25px;
+
+}
+
+.podcast .podcast__link {
+    
+    color: white;
+    text-decoration: none;
+    text-align:end;
+    position: relative;
+    left: 480px;
+    top: 320px;
+    background-color:#ec1d24;
+    border-style:solid;
+    border-color: white;
+    padding: 10px;
+    
+}
+
+.podcast .podcast__link2 {
+    
+    color: white;
+    text-decoration: none;
+    text-align:end;
+    position: relative;
+    left: 480px;
+    top: 360px;
+    background-color:#ec1d24;
+    border-style:solid;
+    border-color: white;
+    padding: 10px;
+}
+
+.novidades {
+    width: 1050px;
+    height: 1780px;
+}
+
+.novidades__titulo {
+    color: black;
+    font-size: 40px;
+    margin: 50px 0px 50px 90px;
+}
+
+.novidades__imagem {
+    width: 650px;
+    height: 350px;
+    margin: 0px 0px 0px 90px;
+    
+    
+}
+
+.novidades p {
+    color: black;
+    position: relative;
+    left: 780px;
+    top: -355px;
+    width: 400px;
+    height: 60px;
+    font-size: 25px;
+}
+
+.novidades2 {
+    width: 100%;
+    height: 800px;
+    background-color: #202020;
+    margin-top: 300px;
+}
+
+.video1 {
+    position: relative;
+    left: 90px;
+    top:50px;
+}
+
+.video2 {
+    position: relative;
+    left: 1010px;
+    top: -610px;
+}
+
+.video2 li {
+    list-style-type: none;
+}
+
+.video__texto {
+    color: white;
+    position: relative;
+    left: 95px;
+    top: 60px;
+    width: 550px;
+    height: 72px;
+    font-size: 25px;
+}
+
+.video__texto2 {
+    color: white;
+    position: relative;
+    left: 95px;
+    top: 50px;
+    width: 520px;
+    height: 20px;
     font-size: 15px;
 }
 
-.podcast__link {
-    text-decoration: none;
+.video__texto3 {
     color: white;
-
+    position: relative;
+    left: 95px;
+    top: 70px;
+    width: 520px;
+    height: 72px;
+    font-size: 15px;
 }
 
 .rodape {
-    background-color: #151515;
+    background-color: #101010;
+    font-size: 20px;
+
+}
+
+.rodape img {
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+.rodape__links {
+    color: white;
+    position: relative;
+    
+    left: 180px;
+    top: 60px;
+
+}
+
+.rodape__links2 {
+    color: white;
+    position: relative;
+    
+    left: 515px;
+    top: -35px;
+
+}
+
+.rodape__links3 {
+    color: white;
+    position: relative;
+    
+    left: 715px;
+    top: -105px;
+
+}
+
+.rodape__links4 {
+    color: white;
+    position: relative;
+    
+    left: 1015px;
+    top: -150px;
+
+}
+
+.rodape__redeSocial img{
+    width: 32px;
+    height: 32px;
+    left: 20px;
+    
 }
