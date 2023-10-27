@@ -63,6 +63,7 @@
 
 .Banner__Loki {
     background-image: url(images/home/image-5.png);
+    background-repeat: no-repeat ;
     height: 630px;
     width: 100%;
 }
