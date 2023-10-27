@@ -39,8 +39,8 @@ header{
 
 }
 #img__logo{
-    width: 180px;
-    height: 40px;
+    width: 215px;
+    height: 55px;
 }
 
 .link__a__esquerda{
@@ -91,14 +91,41 @@ nav{
     padding: 5px;
 }
 
+/* Banner*/
+
 .Banner__Loki{
 
-    background-color: #151515;
-    height: 600px;
+    
+    height: 1000px;
+    text-align: center;
+    background: url('/assets/images/saberMais/Design\ sem\ nome\ \(34\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .banner__capa{
     width: 100%;
-    height: 500px;
-    border: 2px solid;
-    border-color: #747474;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.Botão__Banner{
+
+    height: 60px;
+    width: 150px;
+    border: 1px solid;
+    border-color: red;
+    background-color: #EC1D24;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style:inset;
+
+    
+
+}
+.Botão__assistirAgora{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
