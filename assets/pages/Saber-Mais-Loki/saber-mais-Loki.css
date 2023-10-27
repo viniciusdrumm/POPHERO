@@ -20,6 +20,7 @@
     border: 1px solid;
     display:flex;
     align-items: center;
+    align-content: center;
     justify-content: space-between;
     background-color: #202020;
    
@@ -33,21 +34,29 @@ header{
 
 .Logo{
  
-    margin:0;
+    
+    padding: 7px;
 
 }
-.logo img{
-    height: 30px;
-    width: 200px;
+#img__logo{
+    width: 180px;
+    height: 40px;
 }
 
 .link__a__esquerda{
 
    display: flex;
    width: 150px;
-   height: 40px; 
-   align-items: center;
    
+   justify-content: center;
+   
+   
+}
+.Pesquisar{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    
 }
 .link__cabeçalho__sing{
     
@@ -57,9 +66,7 @@ header{
     
     margin-left: 20px;
 }
-.link__cabeçalho__pesquisar{
-    margin-left: -100px;
-}
+
 #linkCabeçalho{
  text-decoration: none;
  color: white;
