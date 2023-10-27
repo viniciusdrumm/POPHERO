@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-around;
     background-color: #202020;
+    text-decoration: none;
 }
 
 .links__cabeçalho {
@@ -18,8 +19,6 @@
     color: white;
     margin-top: 20px;
     text-decoration: none;
-    
-
 }
 
 .pesquisar__cabeçalho {
@@ -56,7 +55,7 @@
 }
 
 .Banner__Loki {
-    background-image: url(../images/home/image-5.png);
+    background-image: url(images/home/image-5.png);
     height: 630px;
     width: 100%;
 }
@@ -99,156 +98,72 @@
     padding: 10px;
 }
 
-
-.marvel .marvel__titulo {
-    position: relative;
+.titulo {
+    color: black;
     font-size: 40px;
-    left: 100px;
-    top: 0px;
-    width: 210px;
-    height: 60px;
+    margin: 100px 0px 20px 70px;
 
 }
 
-.marvel__imagens1 {
+
+.row {
     display: flex;
-    height: 200px;
-    justify-content:space-around;
-    margin: 5px 80px 5px 80px;
+    justify-content: space-evenly;
+    padding:2%
 }
 
-.marvel__textoImagem1 {
-    display: flex;
-    width: 300px;
-    height: 40px;
-    margin: 5px 500px 5px 100px;
-}
-
-.marvel__textoImagem2 {
-    display: flex;
-    width: 350px;
-    height: 40px;
-    margin: -45px 300px 5px 500px;
-}
-
-.marvel__textoImagem3 {
-    display: flex;
-    width: 350px;
-    height: 40px;
-    margin: -45px 300px 5px 895px;
-}
-
-.marvel__imagens2 {
-    display: flex;
-    height: 200px;
-    justify-content:space-around;
-    margin: 20px 80px 5px 80px;
-}
-
-.marvel__textoImagem4 {
-    display: flex;
-    width: 300px;
-    height: 40px;
-    margin: 5px 500px 5px 100px;
-}
-
-.marvel__textoImagem5 {
-    display: flex;
-    width: 350px;
-    height: 40px;
-    margin: -45px 300px 5px 500px;
-}
-
-.marvel__textoImagem6 {
-    display: flex;
-    width: 350px;
-    height: 40px;
-    margin: -45px 300px 5px 895px;
-}
-
-.dc .dc__titulo {
+.image-container {
     position: relative;
-    font-size: 40px;
-    left: 100px;
-    top: 20px;
-    width: 210px;
-    height: 60px;
-
+    display: inline-block;
+    
 }
 
-.dc__imagens1 {
-    display: flex;
+.image-container img {
+    width: 400px;
     height: 200px;
-    justify-content:space-around;
-    margin: 20px 80px 5px 80px;
+    
 }
 
-.dc__textoImagem1 {
-    display: flex;
-    width: 300px;
-    height: 40px;
-    margin: 5px 500px 5px 100px;
+.image-container .text {
+    position: absolute; 
+    color: rgb(0, 0, 0);
+    text-align:start;
+    padding: 7px;
 }
 
-.dc__textoImagem2 {
-    display: flex;
-    width: 350px;
-    height: 40px;
-    margin: -45px 300px 5px 500px;
-}
-
-.dc__textoImagem3 {
-    display: flex;
-    width: 350px;
-    height: 40px;
-    margin: -45px 300px 5px 895px;
-}
-
-.dc__imagens2 {
-    display: flex;
-    height: 200px;
-    justify-content:space-around;
-    margin: 20px 80px 5px 80px;
-}
-
-.dc__textoImagem4 {
-    display: flex;
-    width: 350px;
-    height: 40px;
-    margin: 5px 500px 5px 100px;
-}
-
-.dc__textoImagem5 {
-    display: flex;
-    width: 350px;
-    height: 40px;
-    margin: -45px 300px 5px 500px;
-}
-
-.dc__textoImagem6 {
-    display: flex;
-    width: 350px;
-    height: 40px;
-    margin: -45px 300px 5px 895px;
+.text {
+    color: black;
+    font-size: 20px;
 }
 
 .podcast {
     width: 100%;
-    height: 850px;
+    height: 800px;
     background-color: #202020;
-
+    margin: 100px 0px 100px 0px;
 }
 
 .podcast__titulo {
     color: white;
-    text-align: center;
     font-size: 45px;
+    text-align: center;
+    position: relative;
     
-
+    
 }
 
 .podcast__texto {
     color: white;
     text-align: center;
     font-size: 15px;
+}
+
+.podcast__link {
+    text-decoration: none;
+    color: white;
+
+}
+
+.rodape {
+    background-color: #151515;
 }

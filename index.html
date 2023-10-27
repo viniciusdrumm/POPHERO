@@ -1,49 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/global.css">
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
     <title>Home</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <header>
-        <div class="cabeçalho">
+      <div class="cabeçalho">
+        <div class="links__cabeçalho">
+          <a href="">Sing In</a>
 
-            <div class="links__cabeçalho">
-
-                <a href="">Sing In</a>
-
-                <a href="">Join</a>
-
-            </div>
-
-            <div class="logo__cabeçalho">
-
-                <img src="assets/images/logo.png" alt="logo">
-
-            </div>
-
-            <div class="pesquisar__cabeçalho">
-
-                <a href="">Pequisar</a>
-
-            </div>
+          <a href="">Join</a>
         </div>
+
+        <div class="logo__cabeçalho">
+          <img src="assets/images/logo.png" alt="logo" />
+        </div>
+
+        <div class="pesquisar__cabeçalho">
+          <a href="">Pequisar</a>
+        </div>
+      </div>
     </header>
 
-
     <nav>
-        <ul class="menu">
-            <li><a href="">Notícias</a></li>
-            <li><a href="./assets/pages/Personagens/personagens.html">Personagens</a></li>
-            <li><a href="">Jogos</a></li>
-            <li><a href="">Loja</a></li>
-            <li><a href="">Mais</a></li>
-        </ul>
+      <ul class="menu">
+        <li><a href="#">Notícias</a></li>
+        <li><a href="/assets/pages/Saber-Mais-Loki/saber-mais-Loki.html">Personagens</a></li>
+        <li><a href="#">Jogos</a></li>
+        <li><a href="#">Loja</a></li>
+        <li><a href="#">Mais</a></li>
+      </ul>
     </nav>
 
     <div class="Banner__Loki">
@@ -54,119 +44,139 @@
             rel="noopener noreferrer">Assista Agora</a>
         <a class="Banner__Link2" href="./assets/pages/Saber-Mais-Loki/saber-mais-Loki.html">Saber Mais</a>
     </div>
-
-    <br>
-
-    <section class="marvel">
-        <h2 class="marvel__titulo">MARVEL</h2>
-        <div class="marvel__imagens1">
-            <img src="assets/images/home/rectangle-16.png" alt="Vingadores" >
-            <img src="assets/images/home/rectangle-17.png" alt="Aranhaverso" >
-            <img src="assets/images/home/rectangle-18.png" alt="Spider-Man 2" >
-        </div>
-        <div>
-            <p class="marvel__textoImagem1">“Vingadores Ultimato”: Entenda a cronologia dos filmes</p>
-            <p class="marvel__textoImagem2">Quando Homem Aranha: Através do Aranhaverso chegará ao streaming?</p>
-            <p class="marvel__textoImagem3">Marvels Spider-Man 2 - Gameplay Review</p>
-
-        </div>
-        <div class="marvel__imagens2">
-            <img src="assets/images/home/rectangle-19.png" alt="Vingadores" >
-            <img src="assets/images/home/rectangle-20.png" alt="Aranhaverso" >
-            <img src="assets/images/home/rectangle-18.png" alt="Spider-Man 2" >
-        </div>
-
-        <div>
-            <p class="marvel__textoImagem4">Jogo do Homem de Ferro da EA utilizará a Unreal Engine 5</p>
-            <p class="marvel__textoImagem5">10 Detalhes que você perdeu em Thor - Amor e Trovão</p>
-            <p class="marvel__textoImagem6">Relembre a 1ª Temporada de Loki</p>
-        </div>
-    </section>
-
-    <section class="dc">
-        <h2 class="dc__titulo">DC</h2>
-        <div class="dc__imagens1">
-            <img src="assets/images/home/rectangle-25.png" alt="Vingadores" >
-            <img src="assets/images/home/rectangle-23.png" alt="Aranhaverso" >
-            <img src="assets/images/home/rectangle-24.png" alt="Spider-Man 2" >
-        </div>
-        <div>
-            <p class="dc__textoImagem1">The Flash grande fracasso em bilheterias</p>
-            <p class="dc__textoImagem2">“The Batman” apresenta a versão mais sombria do herói</p>
-            <p class="dc__textoImagem3">DC traz novo motivo pelo qual Batman não usa armas de fogo</p>
-
-        </div>
-        <div class="dc__imagens2">
-            <img src="assets/images/home/rectangle-25.png" alt="Vingadores" >
-            <img src="assets/images/home/rectangle-25.png" alt="Aranhaverso" >
-            <img src="assets/images/home/rectangle-27.png" alt="Spider-Man 2" >
-        </div>
-
-        <div>
-            <p class="dc__textoImagem4">Top 10 melhores jogos de todos os tempos | DC</p>
-            <p class="dc__textoImagem5">Ranking do pior para o melhor filme do DCU | Universo DC</p>
-            <p class="dc__textoImagem6">Qual a ordem cronológica do DCU?</p>
-        </div>
-    </section>
     
-    <br>
-
-    <section>
-        <div class="podcast">
-            <h3 class="podcast__titulo">OUÇA O NOSSO PODCAST</h3>
-            <p class="podcast__texto">Seja um Super e fique atualizado com todas as novidades dos seus personagens favoritos
-            </p>
-            <img src="assets/images/home/image-6.png" alt="Podcast" class="podcast__imagem">
-            <a href="#">Acessar</a>
+    <h2 class="titulo">MARVEL</h2>
+    <div class="row">
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-16.png" alt="Imagem 1" />
+        <div class="text">
+          “Vingadores Ultimato”: Entenda a cronologia dos filmes
         </div>
-    </section>
-
-    <br>
-
-    <article class="">
-        <h2>Novidades</h2>
-        <ul>
-            <li><img src="#" alt="Gen V" class=""></li>
-            <p>Gen V | Por que o spin-off de The Boys tem esse nome?</p>
-            <li><img src="#" alt="The Boys" class=""></li>
-            <p>The Boys | A 4ª Temporada será a última?</p>
-            <li><img src="#" alt="Spider-Man 2" class=""></li>
-            <p>Spider Man 2 | É mais do mesmo ou surpreende? Analise e Crítica</p>
-            <li><img src="#" alt="BGS" class=""></li>
-            <p>BGS | O quer rolou de melhor na BGS 2023</p>
-            <li><img src="#" alt="She-Hulk" class=""></li>
-            <p>She-Hulk | Por que foi um fracasso?</p>
-        </ul>
-    </article>
-
-    <br>
-
-    <section class="">
-        <div class=""><img src="https://www.youtube.com/watch?v=wmlcMkj2H7" alt="Loki 2ª temporada"></div>
-        <div>Atualizações da 2ª Temporada de Loki e Spider man 2 da Marvel's Studios</div>
-        <div>Agora</div>
-        <div>Atualizamos você sobre o fluxo do tempo em Loki, conectando todos os pontos da linha do tempo. Falamos
-            também do nono jogo da franquia Spider-Man, além de outras novidades!</div>
-    </section>
-
-    <br>
-
-    <footer>
-        <div class="rodape">
-            <a href="index.html"><img src="assets/images/home/logo.png" alt="logo"></a>
-            <div>Sobre a POP HEROES</div>
-            <div>Ajuda/Perguntas Frequentes</div>
-            <div>Trabalhe Conosco</div>
-            <div>Notícia</div>
-            <div>Loja</div>
-            <div>Jogos</div>
-            <div>Universo Marvel</div>
-            <div>Universo DC</div>
-            <div>Siga-nos:</div>
-            <div><img src="#" alt="facebook" class="rodapeImageSocial"></div>
-            <div><img src="#" alt="instagram" class="rodapeImageSocial"></div>
+      </div>
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-17.png" alt="Imagem 2" />
+        <div class="text">
+          Quando Homem Aranha: Através do Aranhaverso chegará ao streaming?
         </div>
-    </footer>
+      </div>
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-18.png" alt="Imagem 3" />
+        <div class="text">Marvel's Spider-Man 2 - Gameplay Reveal</div>
+      </div>
+    </div>
+
+    
+    <div class="row">
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-19.png" alt="Imagem 4" />
+        <div class="text">Jogo do Homem de Ferro da EA utilizará a Unreal Engine 5</div>
+      </div>
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-20.png" alt="Imagem 5" />
+        <div class="text">10 Detalhes que você perdeu em Thor - Amor e Trovão</div>
+      </div>
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-21.png" alt="Imagem 4" />
+        <div class="text">Relembre a 1ª Temporada de Loki</div>
+      </div>
+    </div>
+    
+    <h2 class="titulo">DC</h2>
+    <div class="row">
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-22.png" alt="Imagem 1" />
+        <div class="text">
+          The Flash grande fracasso em bilheterias
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-23.png" alt="Imagem 2" />
+        <div class="text">
+          “The Batman” apresenta a versão mais sombria do herói
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-24.png" alt="Imagem 3" />
+        <div class="text">DC traz novo motivo pelo qual Batman não usa armas de fogo</div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-25.png" alt="Imagem 4" />
+        <div class="text">Top 10 melhores jogos de todos os tempos | DC</div>
+      </div>
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-26.png" alt="Imagem 5" />
+        <div class="text">Ranking do pior para o melhor filme do DCU | Universo DC</div>
+      </div>
+      <div class="image-container">
+        <img src="assets/images/home/rectangle-27.png" alt="Imagem 4" />
+        <div class="text">Qual a ordem cronológica do DCU</div>
+      </div>
+    </div>
+
+
+    <div class="podcast">
+      <div class="podcast__titulo">OUÇA O NOSSO PODCAST</div>
+      <div class="podcast__texto">Seja um Super e fique atualizado com todas as novidades dos seus personagens favoritos</div>
+      <img src="assets/images/home/image-6.png" alt="Podcast" class="podcast__imagem">
+      <div class="podcast__link"><a href="#">Acessar</a></div>
+
+  </div>
+
+  <article class="">
+    <h2 class="titulo">NOVIDADES</h2>
+    <div>
+      <ul>
+        <li><img src="#" alt="Gen V" class=""></li>
+        <p>Gen V | Por que o spin-off de The Boys tem esse nome?</p>
+        <li><img src="#" alt="The Boys" class=""></li>
+        <p>The Boys | A 4ª Temporada será a última?</p>
+        <li><img src="#" alt="Spider-Man 2" class=""></li>
+        <p>Spider Man 2 | É mais do mesmo ou surpreende? Analise e Crítica</p>
+        <li><img src="#" alt="BGS" class=""></li>
+        <p>BGS | O quer rolou de melhor na BGS 2023</p>
+        <li><img src="#" alt="She-Hulk" class=""></li>
+        <p>She-Hulk | Por que foi um fracasso?</p>
+    </ul>
+  </div>  
+</article>
+
+<br>
+
+<section class="">
+    <div class=""><iframe width="895" height="503" src="https://www.youtube.com/embed/dug56u8NN7g" title="Marvel Studios’ Loki Season 2 | Official Trailer | Disney+" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+     
+    <div>Atualizações da 2ª Temporada de Loki e Spider man 2 da Marvel's Studios</div>
+    <div>Agora</div>
+    <div>Atualizamos você sobre o fluxo do tempo em Loki, conectando todos os pontos da linha do tempo. Falamos
+        também do nono jogo da franquia Spider-Man, além de outras novidades!</div>
+</section>
+
+<br>
+
+<footer>
+    <div class="rodape">
+        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+        <div>Sobre a POP HEROES</div>
+        <div>Perguntas Frequentes</div>
+        <div>Trabalhe Conosco</div>
+        <div>Ajuda</div>
+        <div>Notícia</div>
+        <div>Loja</div>
+        <div>Jogos</div>
+        <div>Universo Marvel</div>
+        <div>Universo DC</div>
+        <div>Siga-nos:</div>
+        <div><img src="#" alt="facebook" class="rodapeImageSocial"></div>
+        <div><img src="#" alt="instagram" class="rodapeImageSocial"></div>
+    </div>
+</footer>
 </body>
 
+</html>
+
+  </body>
 </html>
