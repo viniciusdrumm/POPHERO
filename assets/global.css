@@ -1,8 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
+
+.body {
+    overflow-x: hidden;
+}
+
 
 .cabeçalho {
     height: 70px;
@@ -15,13 +23,15 @@
 }
 
 .cabeçalho .links__cabeçalho {
-    
+
     color: white;
     text-decoration: none;
     position: relative;
     left: 15px;
     top: 20px;
-    padding: 5px;   
+    padding: 5px;
+    font-weight: bold;
+
 }
 
 .pesquisar__cabeçalho {
@@ -30,22 +40,25 @@
     position: relative;
     left: 0px;
     top: 20px;
+    font-weight: bold;
+
 }
 
 .logo__cabeçalho {
     margin-top: 7px;
+    position: absolute;
 }
 
 .menu {
-    padding: 2px 10px;  
-    background-color:#151515; 
-    color: #333; 
+    background-color: #151515;
+    color: #333;
     display: flex;
+    padding: 2px;
     justify-content:space-evenly;
     list-style: none;
-    text-align: center;
     width: 100%;
 }
+
 
 /* Estiliza os links do menu */
 .menu a {
@@ -54,16 +67,19 @@
     text-align: center;
     padding: 10px;
     text-decoration: none;
+    font-weight: bold;
+
 }
 
 /* Estiliza os links do menu quando eles são passados com o mouse */
 .menu a:hover {
     background-color: #202020;
     color: white;
+
 }
 
 .Banner__Loki {
-    
+
     background-image: url(images/home/image-5.png);
     background-size: cover;
     height: 630px;
@@ -75,7 +91,9 @@
     position: relative;
     left: 100px;
     top: 350px;
-    font-size: 50px;
+    font-size: 55px;
+    font-weight: bolder;
+
 }
 
 .Banner__Texto {
@@ -95,9 +113,8 @@
     top: 420px;
     text-decoration: none;
     background: #ec1d24;
-    border-style:solid;
-    border-color: white;
     padding: 10px;
+    font-weight: bold;
 }
 
 .Banner__Link2 {
@@ -107,50 +124,52 @@
     top: 420px;
     text-decoration: none;
     background: #ec1d24;
-    border-style:solid;
-    border-color: white;
     padding: 10px;
+    font-weight: bold;
+
 }
 
 .titulo {
     color: black;
-    font-size: 40px;
+    font-size: 55px;
     margin: 100px 0px 10px 90px;
+    font-weight: bolder;
 
 }
 
 .row {
     display: flex;
     justify-content: space-evenly;
-    padding:2%;
-    
+    padding: 2%;
+
 }
 
 .image-container {
     position: relative;
     display: inline-block;
-    
-        
+
+
 }
 
 .image-container img {
-    width: 350px;
-    height: 200px;
+    width: 405px;
+    height: 250px;
     margin: 10px 0px 0px 0px;
-    
+
 }
 
 .image-container .text {
-    position: absolute; 
+    position: absolute;
     color: rgb(0, 0, 0);
-    text-align:start;
-    
-    
+    text-align: start;
+
+
 }
 
 .text {
     color: black;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .podcast {
@@ -169,6 +188,7 @@
     left: 480px;
     top: 210px;
     font-size: 55px;
+    font-weight: bolder;
 }
 
 .podcast__texto {
@@ -179,36 +199,40 @@
     width: 610px;
     height: 72px;
     font-size: 25px;
-
+    font-weight: bold;
 }
 
 .podcast .podcast__link {
-    
+
     color: white;
     text-decoration: none;
-    text-align:end;
+    text-align: center;
     position: relative;
     left: 480px;
     top: 320px;
-    background-color:#ec1d24;
-    border-style:solid;
+    background-color: #202020;
+    border-style: solid;
     border-color: white;
     padding: 10px;
-    
+    font-weight: bold;
+
+
 }
 
 .podcast .podcast__link2 {
-    
+
     color: white;
     text-decoration: none;
-    text-align:end;
+    text-align: center;
     position: relative;
     left: 480px;
     top: 360px;
-    background-color:#ec1d24;
-    border-style:solid;
-    border-color: white;
+    background-color: #202020;
+    border-style: solid;
+    border-color: #EC1D24;
     padding: 10px;
+    font-weight: bold;
+
 }
 
 .novidades {
@@ -226,8 +250,8 @@
     width: 650px;
     height: 350px;
     margin: 0px 0px 0px 90px;
-    
-    
+
+
 }
 
 .novidades p {
@@ -238,6 +262,7 @@
     width: 400px;
     height: 60px;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .novidades2 {
@@ -250,13 +275,14 @@
 .video1 {
     position: relative;
     left: 90px;
-    top:50px;
+    top: 50px;
 }
 
 .video2 {
     position: relative;
-    left: 1010px;
-    top: -610px;
+    left: 1040px;
+    top: -618px;
+    display: flex;
 }
 
 .video2 li {
@@ -271,13 +297,14 @@
     width: 550px;
     height: 72px;
     font-size: 25px;
+    font-weight: bolder;
 }
 
 .video__texto2 {
     color: white;
     position: relative;
     left: 95px;
-    top: 50px;
+    top: 60px;
     width: 520px;
     height: 20px;
     font-size: 15px;
@@ -287,7 +314,7 @@
     color: white;
     position: relative;
     left: 95px;
-    top: 70px;
+    top: 80px;
     width: 520px;
     height: 72px;
     font-size: 15px;
@@ -296,54 +323,58 @@
 .rodape {
     background-color: #101010;
     font-size: 20px;
+    position: relative;
+    display: flex;
 
 }
 
 .rodape img {
     position: relative;
     left: 90px;
-    top: 20px;
+    top: 60px;
 }
 
 .rodape__links {
     color: white;
     position: relative;
-    
-    left: 180px;
+
+    left: 200px;
     top: 60px;
+
 
 }
 
 .rodape__links2 {
     color: white;
     position: relative;
-    
-    left: 515px;
-    top: -35px;
+
+    left: 535px;
+    top: -40px;
 
 }
 
 .rodape__links3 {
     color: white;
     position: relative;
-    
-    left: 715px;
-    top: -105px;
+
+    left: 735px;
+    top: -115px;
 
 }
 
 .rodape__links4 {
     color: white;
     position: relative;
-    
-    left: 1015px;
-    top: -150px;
+
+    left: 1035px;
+    top: -165px;
 
 }
 
-.rodape__redeSocial img{
+.rodape__redeSocial img {
     width: 32px;
     height: 32px;
     left: 20px;
-    
+    top: 10px;
+
 }
