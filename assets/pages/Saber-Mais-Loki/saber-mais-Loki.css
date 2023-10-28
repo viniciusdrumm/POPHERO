@@ -30,25 +30,28 @@
 
   }
   
+
+
+/* Links Cabeçalho*/
+
+header{
+    border: 1px solid ;
+    border-color: #747474;
+    background-color: #202020;
+}
+
 .container{
     max-width: 100%;
-    margin: 0 auto;
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 0 2%;
-    border: 1px solid;
     display:flex;
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    background-color: #202020;
+    
    
 }
-
-/* Links Cabeçalho*/
-header{
-    border: 1px solid ;
-    border-color: #747474;
-}
-
 .Logo{
  
     
@@ -97,7 +100,9 @@ nav{
     background-color: #202020;
     border: 1px solid;
     border-color: #747474;
+    
 }
+
 
 .menu{
     display: flex;
@@ -106,16 +111,20 @@ nav{
     align-content: center;
     list-style-type: none;
     padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
+
+
 
 /* Banner*/
 
 .Banner__Loki{
 
     
-    height: 1000px;
+    height: 600px;
     text-align: center;
-    background: url('/assets/images/saberMais/Design\ sem\ nome\ \(34\).png');
+    background: url(/assets/images/saberMais/Capa\ Loki\ alta\ resolução.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
