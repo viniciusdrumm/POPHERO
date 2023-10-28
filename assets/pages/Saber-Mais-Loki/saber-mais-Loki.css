@@ -4,13 +4,30 @@
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+   
 
+  }
+  main{
 
+    display: flex;
+    flex-direction: row;
+  }
+
+  .colunaDireira{
+    width: 20%;
+    height: 100%;
+  }
+  .colunaEsquerda{
+    width: 20%;
+    height: 100%;
   }
 
   body{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    
+
   }
   
 .container{
