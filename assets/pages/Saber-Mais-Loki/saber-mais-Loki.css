@@ -122,33 +122,37 @@ nav{
 .Banner__Loki{
 
     
-    height: 600px;
+    height: 500px;
+    width: 100%;
     text-align: center;
-    background: url(/assets/images/saberMais/Capa\ Loki\ alta\ resolução.png);
+    background: url(/assets/images/saberMais/capa\ loki\ v1.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    align-items: self-end;
+    align-items: center;
+    justify-content: center;
 }
 
 .Botão__Banner{
 
-    height: 80px;
-    width: 187px;
-    border-color: red;
+    height: 55px;
+    width: 130px;
+    
     background: url('/assets/images/saberMais/Botão\ Assista\ Agora.png');
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 300px;
-    margin-left: 180px;
+    justify-content: center;
+    margin-bottom: -35git0px;
+    margin-left: -1040px;
     
 
 }
 .Botão__assistirAgora{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
+    
+    
 }
 
 /* Section*/
