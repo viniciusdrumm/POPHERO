@@ -44,6 +44,7 @@
     justify-content:space-evenly;
     list-style: none;
     text-align: center;
+    width: 100%;
 }
 
 /* Estiliza os links do menu */
@@ -122,11 +123,13 @@
     display: flex;
     justify-content: space-evenly;
     padding:2%;
+    
 }
 
 .image-container {
     position: relative;
     display: inline-block;
+    
         
 }
 
