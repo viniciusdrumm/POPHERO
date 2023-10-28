@@ -30,34 +30,34 @@
 
   }
   
-
+.container{
+    max-width: 100%;
+    margin-left:20% ;
+    margin-right:20% ;
+    height: 73;  
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #202020;
+   
+}
 
 /* Links Cabeçalho*/
-
 header{
     border: 1px solid ;
     border-color: #747474;
     background-color: #202020;
 }
 
-.container{
-    max-width: 100%;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding: 0 2%;
-    display:flex;
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
-    
-   
-}
 .Logo{
  
     
     padding: 7px;
+    
 
 }
+
 #img__logo{
     width: 215px;
     height: 55px;
@@ -95,14 +95,18 @@ header{
 }
 
 /* Nav*/
+
 nav{
     height: 30px;
-    background-color: #202020;
-    border: 1px solid;
-    border-color: #747474;
+    background-color: #151515;
     
+    
+   
 }
 
+.SaberMais__Nav{
+    
+}
 
 .menu{
     display: flex;
@@ -111,11 +115,12 @@ nav{
     align-content: center;
     list-style-type: none;
     padding: 5px;
-    margin-left: 25%;
-    margin-right: 25%;
+    text-decoration: none;
+    text-decoration-line: none;
+    margin-left:20% ;
+    margin-right:20% ;
+    
 }
-
-
 
 /* Banner*/
 
@@ -123,107 +128,120 @@ nav{
 
     
     height: 500px;
-    width: 100%;
     text-align: center;
-    background: url(/assets/images/saberMais/capa\ loki\ v1.png);
+    background: url('/assets/images/saberMais/Capa\ Banner\ Loki-1.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: self-end;
 }
 
 .Botão__Banner{
 
-    height: 55px;
-    width: 130px;
-    
-    background: url('/assets/images/saberMais/Botão\ Assista\ Agora.png');
+    width: 187px;
+    height: 80px;
+    background: url('/assets/images/saberMais/Botão\ Assista\ Agora\ \(1\).png');
+    position: relative;
+    left: 400px;
+    bottom: 70px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-bottom: -35git0px;
-    margin-left: -1040px;
+    align-items: center;
+    
     
 
 }
 .Botão__assistirAgora{
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     
     
+}
+
+.Logo__Loki{
+    position: relative;
+    bottom: 150px;
+    left: 40px;
 }
 
 /* Section*/
 
 section{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     width: 60%;
-    margin-left: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
     
 }
 
 .titulo__section{
     font-weight: 150px;
     font-style: bold;
-    border: 1px solid;
-    padding: 50px;
+    padding: 30px;
+    position: relative;
+    left: -23px;
+
     
 }
 
 .Texto__Section{
     display: flex;
-    flex-direction: column;
-    border: 1px solid;
+    flex-direction: column;   
+    width: 60%;
 }
 
 .Texto__Section__1{
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    
     padding: 50px;
 }
 
 .Texto__Section__2{
     display: flex;
-    flex-direction: row;
-    border: 1px solid;
+    flex-direction: row;  
     padding: 50px;
     justify-content: space-between;
 }
 .Texto__Section__3{
     display: flex;
     flex-direction: row;
-    border: 1px solid;
+    
     padding: 50px;
     justify-content: space-between;
 }
 .P1__sectio2{
     width: 220px;
-    border: 1px solid;
+    
 }
 .P2__sectio2{
     width: 220px;
     
-    border: 1px solid;
 }
 .P3__sectio2{
     width: 220px;
-    border: 1px solid;
+    
 }
 
 .P1__sectio3{
     width: 220px;
-    border: 1px solid;
+    
 }
 .P2__sectio3{
     width: 220px;
     margin-left: 50px;
-    border: 1px solid;
+    
 }
 .P3__secti3{
     width: 220px;
-    border: 1px solid;
+    
+}
+
+.Imagem__Loki{
+    height: 400px;
+    width: 300px;
+    padding-left: 50px;
+    padding-top: 130px;
 }
