@@ -76,11 +76,17 @@ header{
    
    
 }
+.fa-regular{
+    color: white;
+}
 .Pesquisar{
     width: 200px;
     display: flex;
     justify-content: center;
     
+}
+.link__cabeçalho__pesquisar{
+    font-size: 17px;
 }
 .link__cabeçalho__sing{
     
