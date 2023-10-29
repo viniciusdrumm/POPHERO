@@ -168,9 +168,9 @@ nav{
 
 .Botão__Banner{
 
-    width: 187px;
-    height: 80px;
-    background: url('/assets/images/saberMais/Botão\ Assista\ Agora\ \(1\).png');
+    width: 130px;
+    height: 55px;
+    background: url('/assets/images/saberMais/Botão\ Assista\ Agora.png');
     position: relative;
     left: 400px;
     bottom: 310px;
@@ -183,7 +183,7 @@ nav{
 
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
      
 }
 
