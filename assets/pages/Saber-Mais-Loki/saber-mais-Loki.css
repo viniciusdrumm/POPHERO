@@ -104,9 +104,7 @@ nav{
    
 }
 
-.SaberMais__Nav{
-    
-}
+
 
 .menu{
     display: flex;
@@ -127,9 +125,9 @@ nav{
 .Banner__Loki{
 
     
-    height: 500px;
+    height: 730px;
     text-align: center;
-    background: url('/assets/images/saberMais/Capa\ Banner\ Loki-1.png');
+    background: url('/assets/images/saberMais/Capa\ Banner\ Loki\ -\ 3.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -143,7 +141,7 @@ nav{
     background: url('/assets/images/saberMais/Botão\ Assista\ Agora\ \(1\).png');
     position: relative;
     left: 400px;
-    bottom: 70px;
+    bottom: 310px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,8 +159,14 @@ nav{
 
 .Logo__Loki{
     position: relative;
-    bottom: 150px;
+    bottom: 400px;
     left: 40px;
+}
+
+.Logo__Loki_1{
+    position: static;
+    left: -100px;
+    
 }
 
 /* Section*/
@@ -177,11 +181,13 @@ section{
 }
 
 .titulo__section{
-    font-weight: 150px;
+   
     font-style: bold;
     padding: 30px;
     position: relative;
     left: -23px;
+    font-weight: 900;
+    
 
     
 }
@@ -189,7 +195,7 @@ section{
 .Texto__Section{
     display: flex;
     flex-direction: column;   
-    width: 60%;
+    width: 70%;
 }
 
 .Texto__Section__1{
@@ -213,35 +219,118 @@ section{
     justify-content: space-between;
 }
 .P1__sectio2{
-    width: 220px;
+    width: 25%;
+    font-size:12px ;
     
 }
 .P2__sectio2{
-    width: 220px;
+    width: 25%;
+    font-size:12px ;
     
 }
 .P3__sectio2{
-    width: 220px;
+    width: 20%;
+    font-size:12px ;
     
 }
 
-.P1__sectio3{
-    width: 220px;
+.P1__section3{
+    width: 25%;
+    font-size:12px ;
     
 }
-.P2__sectio3{
-    width: 220px;
-    margin-left: 50px;
+.P2__section3{
+    width: 20%;
+    font-size:12px ;
     
 }
-.P3__secti3{
-    width: 220px;
+.P3__section3{
+    width: 20%;
+    font-size:12px ;
+    
     
 }
+
+.Titulos__Textos{
+    font-weight: bold;
+    font-weight:700;
+    padding-bottom: 10px;
+}
+
 
 .Imagem__Loki{
     height: 400px;
-    width: 300px;
+    width: 20%;
     padding-left: 50px;
     padding-top: 130px;
+}
+
+/* TRAILER*/
+
+.Trailer__Section{
+   
+    padding: 50px;
+    
+
+}
+
+.Titulo__Trailer{
+    padding-bottom: 50px;
+}
+
+/* FOOTER*/
+
+.rodape {
+    background-color: #101010;
+    font-size: 20px;
+
+}
+
+.rodape img {
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+.rodape__links {
+    color: white;
+    position: relative;
+    
+    left: 180px;
+    top: 60px;
+
+}
+
+.rodape__links2 {
+    color: white;
+    position: relative;
+    
+    left: 515px;
+    top: -35px;
+
+}
+
+.rodape__links3 {
+    color: white;
+    position: relative;
+    
+    left: 715px;
+    top: -105px;
+
+}
+
+.rodape__links4 {
+    color: white;
+    position: relative;
+    
+    left: 1015px;
+    top: -150px;
+
+}
+
+.rodape__redeSocial img{
+    width: 32px;
+    height: 32px;
+    left: 20px;
+    
 }
