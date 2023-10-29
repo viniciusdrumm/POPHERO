@@ -1,4 +1,5 @@
 * {
+    
     margin: 0;
     padding: 0;
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -7,33 +8,39 @@
    
 
   }
-
-  
+ 
   main{
 
     display: flex;
     flex-direction: row;
+
   }
 
   .colunaDireira{
+
     width: 20%;
     height: 100%;
+
   }
+
   .colunaEsquerda{
+
     width: 20%;
     height: 100%;
+
   }
 
   body{
+
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     width: 100%;
     
-
   }
   
 .container{
+
     max-width: 100%;
     margin-left:5% ;
     margin-right:5% ;
@@ -47,7 +54,9 @@
 }
 
 /* Links Cabeçalho*/
+
 header{
+
     border: 1px solid ;
     border-color: #747474;
     background-color: #202020;
@@ -55,13 +64,12 @@ header{
 
 .Logo{
  
-    
     padding: 7px;
     
-
 }
 
 #img__logo{
+
     width: 215px;
     height: 55px;
 }
@@ -70,21 +78,23 @@ header{
 
    display: flex;
    width: 150px;
-   
    justify-content: center;
    
    
 }
 .fa-regular{
+
     color: white;
 }
 .Pesquisar{
+
     width: 200px;
     display: flex;
     justify-content: center;
     
 }
 .link__cabeçalho__pesquisar{
+
     font-size: 17px;
 }
 .link__cabeçalho__sing{
@@ -95,12 +105,14 @@ header{
     
     margin-left: 20px;
 }
+ 
+#linkCabeçalho{ 
 
-#linkCabeçalho{
- text-decoration: none;
- color: white;
- align-items: center;
- justify-content: center;
+   text-decoration: none;
+   color: white;
+   align-items: center;
+   justify-content: center;
+
 }
 
 /* Nav*/
@@ -132,6 +144,7 @@ nav{
 /* Estiliza os links do menu quando eles são passados com o mouse */
 
 .menu a:hover {
+
     background-color: #202020;
     color: white;
     height: 100px;
@@ -156,9 +169,6 @@ nav{
 
     height: 50px;
     width: 100px;
-   
-    
-
 
 }
 .Texto__Banner{
@@ -199,21 +209,12 @@ main{
 
 }
 
-.Imagem__Batman__Section1{
-
-    
-
-}
 
 #Imagem1__Section1{
 
     width: 350px;
 }
 
-.Titulo__Section1{
-
-    
-}
 
 .Texto__Section1{
 
@@ -233,12 +234,6 @@ main{
     flex-direction: row;
     padding: 70px 0px 100px 0px;
     justify-content: space-evenly;
-    
-
-}
-
-.Imagem__Batman__Section2{
-    
     
 
 }
@@ -295,6 +290,7 @@ main{
 .Trailer__Section{
    
     padding: 50px;
+    padding-bottom: 200px;
     
 
 }
