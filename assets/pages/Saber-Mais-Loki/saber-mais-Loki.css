@@ -297,7 +297,6 @@ footer{
 .rodape {
     height: 300px;
     width: 100%;
-    
     background-color: #101010;
     display: flex;
     flex-direction: column;
@@ -315,56 +314,6 @@ footer{
     
 }
 
-.rodape img {
-    
-    left: 90px;
-    top: 20px;
-
-    
-    
-}
-
-.rodape__links {
-    color: white;
-    
-    font-size: 12px;
-    
-    
-    
-    
-
-}
-
-.rodape__links2 {
-    color: white;
-    
-    font-size: 12px;
-    
-
-    
-
-}
-
-.rodape__links3 {
-    color: white;
-    
-    font-size: 12px;
-    text-decoration: none;
-    text-decoration-line: none;
-
-    
-
-}
-
-.rodape__links4 {
-    color: white;
-    
-    font-size: 12px;
-    
-
-    
-
-}
 
 .rodape__redeSocial img{
     width: 32px;
@@ -376,5 +325,20 @@ footer{
 
 #Textos__rodape{
     line-height: 40px;
+    font-size: 12px;
     
+}
+#Links__Rodape{
+
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+    
+
+}
+
+.rodape__logo{
+    position: relative;
+    left: 200px;
+    top: 80px;
 }
