@@ -36,8 +36,8 @@
   
 .container{
     max-width: 100%;
-    margin-left:20% ;
-    margin-right:20% ;
+    margin-left:5% ;
+    margin-right:5% ;
     height: 73;  
     display:flex;
     align-items: center;
@@ -101,16 +101,16 @@ header{
 /* Nav*/
 
 nav{
+
     height: 30px;
     background-color: #151515;
-    
-    
-   
+
 }
 
 
 
 .menu{
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -119,16 +119,23 @@ nav{
     padding: 5px;
     text-decoration: none;
     text-decoration-line: none;
-    margin-left:20% ;
-    margin-right:20% ;
+    margin-left:5% ;
+    margin-right:5% ;
     
+}
+
+/* Estiliza os links do menu quando eles são passados com o mouse */
+
+.menu a:hover {
+    background-color: #202020;
+    color: white;
+    height: 100px;
 }
 
 /* Banner*/
 
 .Banner__Loki{
 
-    
     height: 730px;
     text-align: center;
     background: url('/assets/images/saberMais/Capa\ Banner\ Loki\ -\ 3.png');
@@ -204,8 +211,7 @@ section{
 
 .Texto__Section__1{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
     padding: 50px;
 }
 
@@ -217,8 +223,7 @@ section{
 }
 .Texto__Section__3{
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;  
     padding: 50px;
     justify-content: space-between;
 }
@@ -284,51 +289,80 @@ section{
 
 /* FOOTER*/
 
+footer{
+    height: 300px;
+    width: 100%;
+}
+
 .rodape {
+    height: 300px;
+    width: 100%;
+    
     background-color: #101010;
-    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 
 }
 
+.Container__Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 100px;
+    
+}
+
 .rodape img {
-    position: relative;
+    
     left: 90px;
     top: 20px;
+
+    
+    
 }
 
 .rodape__links {
     color: white;
-    position: relative;
     
-    left: 180px;
-    top: 60px;
+    font-size: 12px;
+    
+    
+    
+    
 
 }
 
 .rodape__links2 {
     color: white;
-    position: relative;
     
-    left: 515px;
-    top: -35px;
+    font-size: 12px;
+    
+
+    
 
 }
 
 .rodape__links3 {
     color: white;
-    position: relative;
     
-    left: 715px;
-    top: -105px;
+    font-size: 12px;
+    text-decoration: none;
+    text-decoration-line: none;
+
+    
 
 }
 
 .rodape__links4 {
     color: white;
-    position: relative;
     
-    left: 1015px;
-    top: -150px;
+    font-size: 12px;
+    
+
+    
 
 }
 
@@ -336,5 +370,11 @@ section{
     width: 32px;
     height: 32px;
     left: 20px;
+    
+    
+}
+
+#Textos__rodape{
+    line-height: 40px;
     
 }
