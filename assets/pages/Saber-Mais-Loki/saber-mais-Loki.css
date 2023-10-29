@@ -5,10 +5,7 @@
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
    
-
   }
-
-
 
   main{
 
@@ -17,24 +14,30 @@
   }
 
   .colunaDireira{
+
     width: 20%;
     height: 100%;
+
   }
+
   .colunaEsquerda{
+
     width: 20%;
     height: 100%;
+
   }
 
   body{
+
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     width: 100%;
     
-
   }
   
 .container{
+
     max-width: 100%;
     margin-left:5% ;
     margin-right:5% ;
@@ -48,21 +51,23 @@
 }
 
 /* Links Cabeçalho*/
+
 header{
+
     border: 1px solid ;
     border-color: #747474;
     background-color: #202020;
+
 }
 
 .Logo{
- 
-    
+  
     padding: 7px;
-    
 
 }
 
 #img__logo{
+
     width: 215px;
     height: 55px;
 }
@@ -71,37 +76,45 @@ header{
 
    display: flex;
    width: 150px;
-   
    justify-content: center;
-   
-   
+     
 }
+
 .fa-regular{
+
     color: white;
 }
+
 .Pesquisar{
+
     width: 200px;
     display: flex;
     justify-content: center;
     
 }
+
 .link__cabeçalho__pesquisar{
+
     font-size: 17px;
 }
+
 .link__cabeçalho__sing{
     
     margin-left: 2px;
 }
+
 .link__cabeçalho__join{
     
     margin-left: 20px;
 }
 
 #linkCabeçalho{
- text-decoration: none;
- color: white;
- align-items: center;
- justify-content: center;
+
+   text-decoration: none;
+   color: white;
+   align-items: center;
+   justify-content: center;
+
 }
 
 /* Nav*/
@@ -133,6 +146,7 @@ nav{
 /* Estiliza os links do menu quando eles são passados com o mouse */
 
 .menu a:hover {
+    
     background-color: #202020;
     color: white;
     height: 100px;
@@ -149,6 +163,7 @@ nav{
     background-size: cover;
     display: flex;
     align-items: self-end;
+
 }
 
 .Botão__Banner{
@@ -163,24 +178,24 @@ nav{
     justify-content: center;
     align-items: center;
     
-    
-
 }
 .Botão__assistirAgora{
+
     color: white;
     text-decoration: none;
     font-size: 20px;
-    
-    
+     
 }
 
 .Logo__Loki{
+
     position: relative;
     bottom: 400px;
     left: 40px;
 }
 
 .Logo__Loki_1{
+
     position: static;
     left: -100px;
     
@@ -189,6 +204,7 @@ nav{
 /* Section*/
 
 section{
+
     display: flex;
     flex-direction:row;
     width: 60%;
@@ -204,80 +220,100 @@ section{
     position: relative;
     left: -23px;
     font-weight: 900;
-    
-
-    
+     
 }
 
 .Texto__Section{
+
     display: flex;
     flex-direction: column;   
     width: 70%;
+
 }
 
 .Texto__Section__1{
+
     display: flex;
     flex-direction: column; 
     padding: 50px;
+
 }
 
 .Texto__Section__2{
+
     display: flex;
     flex-direction: row;  
     padding: 50px;
     justify-content: space-between;
+
 }
+
 .Texto__Section__3{
+
     display: flex;
     flex-direction: row;  
     padding: 50px;
     justify-content: space-between;
+
 }
+
 .P1__sectio2{
+
     width: 25%;
     font-size:12px ;
     
 }
+
 .P2__sectio2{
+
     width: 25%;
     font-size:12px ;
     
 }
+
 .P3__sectio2{
+
     width: 20%;
     font-size:12px ;
     
 }
 
 .P1__section3{
+
     width: 25%;
     font-size:12px ;
     
 }
+
 .P2__section3{
+
     width: 20%;
     font-size:12px ;
     
 }
+
 .P3__section3{
+
     width: 20%;
     font-size:12px ;
-    
-    
+        
 }
 
 .Titulos__Textos{
+
     font-weight: bold;
     font-weight:700;
     padding-bottom: 10px;
+
 }
 
-
 .Imagem__Loki{
+
     height: 400px;
     width: 20%;
     padding-left: 50px;
     padding-top: 130px;
+
 }
 
 /* TRAILER*/
@@ -285,23 +321,26 @@ section{
 .Trailer__Section{
    
     padding: 50px;
+    padding-bottom: 200px;
     
-
 }
 
 .Titulo__Trailer{
+
     padding-bottom: 50px;
 }
 
 /* FOOTER*/
 
 footer{
+
     height: 300px;
     width: 100%;
     background-color: #101010;
 }
 
 .rodape {
+
     height: 300px;
     width: 100%;
     background-color: #101010;
@@ -310,10 +349,10 @@ footer{
     justify-content: center;
     align-content: center;
 
-
 }
 
 .Container__Links{
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -324,17 +363,17 @@ footer{
 
 
 .rodape__redeSocial img{
+
     width: 32px;
     height: 32px;
     left: 20px;
-    
-    
+     
 }
 
 #Textos__rodape{
+
     line-height: 40px;
     font-size: 12px;
-    
     
 }
 #Links__Rodape{
@@ -343,10 +382,10 @@ footer{
     text-decoration-line: none;
     color: white;
     
-
 }
 
 .rodape__logo{
+
     position: relative;
     left: 200px;
     top: -20px;
