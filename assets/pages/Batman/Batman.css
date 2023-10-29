@@ -290,6 +290,21 @@ main{
 
 }
 
+/* TRAILER*/
+
+.Trailer__Section{
+   
+    padding: 50px;
+    
+
+}
+
+.Titulo__Trailer{
+    padding-bottom: 50px;
+}
+
+
+
 /* FOOTER*/
 
 footer{
