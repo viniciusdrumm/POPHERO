@@ -54,7 +54,7 @@
     color: #333;
     display: flex;
     padding: 2px;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     list-style: none;
     width: 100%;
 }
@@ -85,6 +85,26 @@
     width: 100%;
 }
 
+.banner__titulo {
+    color: white;
+    position: relative;
+    left: 550px;
+    top: 235px;
+    font-size: 75px;
+    font-weight: bolder;
+
+}
+
+.banner__texto {
+    color: white;
+    position: relative;
+    left: 330px;
+    top: 250px;
+    font-size: 45px;
+    font-weight: bold;
+
+
+}
 
 
 
@@ -128,7 +148,7 @@
     position: relative;
 
     left: 735px;
-    top: -115px;
+    top: -112px;
 
 }
 
@@ -137,7 +157,7 @@
     position: relative;
 
     left: 1035px;
-    top: -165px;
+    top: -160px;
 
 }
 
