@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+
+.cabeçalho {
+    height: 70px;
+    width: 100%;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+    background-color: #202020;
+    text-decoration: none;
+}
+
+.cabeçalho .links__cabeçalho {
+
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+.pesquisar__cabeçalho {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 0px;
+    top: 20px;
+    font-weight: bold;
+
+}
+
+.logo__cabeçalho {
+    margin-top: 7px;
+    position: absolute;
+}
+
+.menu {
+    background-color: #151515;
+    color: #333;
+    display: flex;
+    padding: 2px;
+    justify-content:space-evenly;
+    list-style: none;
+    width: 100%;
+}
+
+
+/* Estiliza os links do menu */
+.menu a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+/* Estiliza os links do menu quando eles são passados com o mouse */
+.menu a:hover {
+    background-color: #202020;
+    color: white;
+
+}
+
+.banner__personagens {
+    background-image: url(/assets/images/personagens/banner_personagens.png);
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+
+
+
+
+
+.rodape {
+    background-color: #101010;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+
+}
+
+.rodape img {
+    position: relative;
+    left: 90px;
+    top: 60px;
+}
+
+.rodape__links {
+    color: white;
+    position: relative;
+
+    left: 200px;
+    top: 60px;
+
+
+}
+
+.rodape__links2 {
+    color: white;
+    position: relative;
+
+    left: 535px;
+    top: -40px;
+
+}
+
+.rodape__links3 {
+    color: white;
+    position: relative;
+
+    left: 735px;
+    top: -115px;
+
+}
+
+.rodape__links4 {
+    color: white;
+    position: relative;
+
+    left: 1035px;
+    top: -165px;
+
+}
+
+.rodape__redeSocial img {
+    width: 32px;
+    height: 32px;
+    left: 20px;
+    top: 10px;
+
+}
