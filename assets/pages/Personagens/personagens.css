@@ -75,28 +75,35 @@
 .banner__personagens {
     background-image: url(/assets/images/personagens/banner_personagens.png);
     background-size: cover;
-    height: 550px;
+    background-repeat: no-repeat;
+    height: 500px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
 }
 
 .banner__titulo {
     color: white;
-    position: relative;
-    left: 550px;
-    top: 235px;
+    width: 455px;
+    height: 40px;
     font-size: 70px;
     font-weight: bold;
+    padding-left: 450px;
+    padding-bottom: 50px;
+
 
 }
 
 .banner__texto {
     color: white;
-    position: relative;
-    left: 330px;
-    top: 250px;
-    font-size: 45px;
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
     font-weight: bold;
-
+    padding-left: 410px;
+    padding-bottom: 200px;
 
 }
 
@@ -210,7 +217,7 @@ footer{
 .rodape__logo{
 
     position: relative;
-    left: 200px;
+    left: 100px;
     top: -20px;
 }
 
@@ -222,6 +229,6 @@ footer{
     justify-content: space-evenly;
     color: white;
     font-size: 10px;
-    padding-left: 170px;
+    padding-left: 150px;
     padding-top: 40px;
 }
