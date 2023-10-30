@@ -27,10 +27,8 @@
     color: white;
     text-decoration: none;
     position: relative;
-    left: 15px;
     top: 20px;
     padding: 5px;
-    font-weight: bold;
 
 }
 
@@ -38,15 +36,12 @@
     color: white;
     text-decoration: none;
     position: relative;
-    left: 0px;
     top: 20px;
-    font-weight: bold;
 
 }
 
 .logo__cabeçalho {
     margin-top: 7px;
-    position: absolute;
 }
 
 .menu {
@@ -67,7 +62,6 @@
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    font-weight: bold;
 
 }
 
@@ -90,8 +84,8 @@
     position: relative;
     left: 550px;
     top: 235px;
-    font-size: 75px;
-    font-weight: bolder;
+    font-size: 70px;
+    font-weight: bold;
 
 }
 
@@ -106,65 +100,128 @@
 
 }
 
+h2 {
+    margin: 50px 100px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.galeria__item {
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    border-radius: 0 0 50px 0;
+    width: 200px;
+    height: 350px;
+}
+
+.galeria__item img {
+    width: 200px;
+    height: 280px;
+    object-fit:cover;
+}
+
+.galeria__item p {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 30px 30px 20px;
+    
+}
+
+.galeria__item a {
+    text-decoration: none;
+}
+
+.galeria__item:hover {
+    background-color: #EC1D24;
+    border-radius: 0 0 50px 0;
+    color: white;
+}
 
 
 
+/* FOOTER*/
+
+footer{
+
+    height: 300px;
+    width: 100%;
+    background-color: #101010;
+    
+}
 
 .rodape {
+
+    height: 350px;
+    width: 100%;
     background-color: #101010;
-    font-size: 20px;
-    position: relative;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
 
 }
 
-.rodape img {
-    position: relative;
-    left: 90px;
-    top: 60px;
+.Container__Links{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 0px 100px 0px 100px;
+    
 }
 
-.rodape__links {
-    color: white;
-    position: relative;
 
-    left: 200px;
-    top: 60px;
+.rodape__redeSocial img{
 
-
-}
-
-.rodape__links2 {
-    color: white;
-    position: relative;
-
-    left: 535px;
-    top: -40px;
-
-}
-
-.rodape__links3 {
-    color: white;
-    position: relative;
-
-    left: 735px;
-    top: -112px;
-
-}
-
-.rodape__links4 {
-    color: white;
-    position: relative;
-
-    left: 1035px;
-    top: -160px;
-
-}
-
-.rodape__redeSocial img {
     width: 32px;
     height: 32px;
     left: 20px;
-    top: 10px;
+     
+}
 
+#Textos__rodape{
+
+    line-height: 40px;
+    font-size: 15px;
+    
+}
+#Links__Rodape{
+
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+    
+}
+
+.rodape__logo{
+
+    position: relative;
+    left: 200px;
+    top: -20px;
+}
+
+.Politicas__de__uso{
+
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 10px;
+    padding-left: 170px;
+    padding-top: 40px;
 }
