@@ -144,9 +144,10 @@
 }
 
 .image-container img {
-    width: 405px;
-    height: 250px;
-    margin: 10px 0px 0px 0px;
+    width: 350px;
+    height: 200px;
+    margin: 20px 0px 0px 0px;
+    object-fit:cover;
 
 }
 
@@ -355,7 +356,7 @@ footer{
 #Textos__rodape{
 
     line-height: 40px;
-    font-size: 12px;
+    font-size: 15px;
     
 }
 #Links__Rodape{
@@ -369,7 +370,7 @@ footer{
 .rodape__logo{
 
     position: relative;
-    left: 200px;
+    left: 100px;
     top: -20px;
 }
 
@@ -381,6 +382,6 @@ footer{
     justify-content: space-evenly;
     color: white;
     font-size: 10px;
-    padding-left: 170px;
+    padding-left: 150px;
     padding-top: 40px;
 }
