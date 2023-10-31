@@ -272,4 +272,6 @@ footer{
     font-size: 10px;
     padding-left: 150px;
     padding-top: 40px;
+    position: relative;
+    bottom: -26px;
 }
