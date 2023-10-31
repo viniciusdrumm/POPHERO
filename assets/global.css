@@ -155,24 +155,34 @@ nav{
     font-size: 25px;
 }
 
-.Banner__Link1 {
-    color: rgb(255, 255, 255);
+.botao__banner1 {
+    background-image: url(/assets/images/home/botao.png) ;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
     position: relative;
+    top: 400px;
     left: 100px;
-    top: 420px;
-    text-decoration: none;
-    background: #ec1d24;
-    padding: 10px;
 }
 
-.Banner__Link2 {
+.botao__banner2 {
+    background-image: url(/assets/images/home/botao.png) ;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 200px;
+    left: 260px;
+}
+
+
+.Banner__Link {
     color: rgb(255, 255, 255);
     position: relative;
-    left: 120px;
-    top: 420px;
+    left: 85px;
+    top: 20px;
     text-decoration: none;
-    background: #ec1d24;
-    padding: 10px;
+    padding: 0 40px 0 30px
 
 }
 
