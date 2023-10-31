@@ -232,13 +232,13 @@ nav{
     background-image: url(/assets/images/home/background-podcast.png);    
     background-repeat: no-repeat;
     background-position: 0px 80px;
-    margin: 0 0 100px 0px;
 }
 
 .podcast img {
-    height: 500px;
-    width: 280px;
-    padding-top: 200px;
+    height: 520px;
+    width: 300px;
+    padding-top: 180px;
+
 }
 
 .podcast__titulo {
@@ -299,7 +299,7 @@ nav{
 .novidades__titulo {
     color: black;
     font-size: 40px;
-    margin: 50px 0px 50px 90px;
+    margin: 20px 0px 50px 90px;
 }
 
 .novidades__imagem {
@@ -326,7 +326,7 @@ nav{
     height: 800px;
     background-image: url(/assets/images/home/background-videos.png);
     background-repeat: no-repeat ;
-    margin-top: 300px;
+    margin-top: 320px;
 }
 
 .video1 {
