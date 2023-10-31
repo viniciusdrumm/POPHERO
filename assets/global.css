@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -129,7 +127,7 @@ nav{
 
 .Banner__Loki {
 
-    background-image: url(../assets/images/home/loki-banner.jpg);
+    background-image: url(./images/home/loki-banner.jpg);
     background-size: cover;
     height: 630px;
     width: 100%;
@@ -156,7 +154,7 @@ nav{
 }
 
 .botao__banner1 {
-    background-image: url(../assets/images/home/botao.png) ;
+    background-image: url(./images/home/botao.png) ;
     background-repeat: no-repeat;
     width: 200px;
     height: 200px;
@@ -166,7 +164,7 @@ nav{
 }
 
 .botao__banner2 {
-    background-image: url(../assets/images/home/botao.png) ;
+    background-image: url(./images/home/botao.png) ;
     background-repeat: no-repeat;
     width: 200px;
     height: 200px;
