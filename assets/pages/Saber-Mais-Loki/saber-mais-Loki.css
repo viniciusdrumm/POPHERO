@@ -158,7 +158,7 @@ nav{
 
     height: 730px;
     text-align: center;
-    background: url('/assets/images/saberMais/BannerSaberMaisLokiS2.png');
+    background: url('../assets/images/saberMais/BannerSaberMaisLokiS2.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
