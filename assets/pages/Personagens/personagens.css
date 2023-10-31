@@ -222,7 +222,7 @@ h2 {
     justify-content: flex-start;  
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1800px) {
 
     .galeria__item {
         display: flex;
