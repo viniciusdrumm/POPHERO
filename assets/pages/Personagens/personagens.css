@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -128,7 +126,7 @@ nav{
 }
 
 .banner__personagens {
-    background-image: url(/assets/images/personagens/banner-personagens.png);
+    background-image: url(./assets/images/personagens/banner-personagens.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
