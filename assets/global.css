@@ -139,7 +139,7 @@ nav{
     color: white;
     position: relative;
     left: 100px;
-    top: 350px;
+    top: 300px;
     font-size: 55px;
     font-weight: bolder;
 
@@ -151,7 +151,7 @@ nav{
     height: 90px;
     position: relative;
     left: 100px;
-    top: 365px;
+    top: 315px;
     font-size: 25px;
 }
 
@@ -161,7 +161,7 @@ nav{
     width: 200px;
     height: 200px;
     position: relative;
-    top: 400px;
+    top: 350px;
     left: 100px;
 }
 
@@ -171,7 +171,7 @@ nav{
     width: 200px;
     height: 200px;
     position: relative;
-    top: 200px;
+    top: 150px;
     left: 260px;
 }
 
@@ -180,7 +180,7 @@ nav{
     color: rgb(255, 255, 255);
     position: relative;
     left: 85px;
-    top: 20px;
+    top: -30px;
     text-decoration: none;
     padding: 0 40px 0 30px
 
