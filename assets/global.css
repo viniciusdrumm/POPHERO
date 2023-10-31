@@ -236,14 +236,15 @@ nav{
 }
 
 .podcast img {
-    height: 570px;
-    padding-top: 130px;
+    height: 500px;
+    width: 280px;
+    padding-top: 200px;
 }
 
 .podcast__titulo {
     color: white;
     position: relative;
-    left: 480px;
+    left: 450px;
     top: -410px;
     font-size: 55px;
     font-weight: bolder;
@@ -252,7 +253,7 @@ nav{
 .podcast__texto {
     color: white;
     position: relative;
-    left: 480px;
+    left: 450px;
     top: -380px;
     width: 650px;
     height: 72px;
@@ -265,7 +266,7 @@ nav{
     text-decoration: none;
     text-align: center;
     position: relative;
-    left: 480px;
+    left: 450px;
     top: -320px;
     background-color: #202020;
     border-style: solid;
@@ -281,7 +282,7 @@ nav{
     text-decoration: none;
     text-align: center;
     position: relative;
-    left: 480px;
+    left: 450px;
     top: -280px;
     background-color: #202020;
     border-style: solid;
