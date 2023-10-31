@@ -154,7 +154,7 @@ nav{
 
 .Banner__Agente__Mobius{
     
-    background: url(/assets/images/AgenteMobius/Capa\ Banner\ Agente\ Mobius.png);
+    background: url(/assets/images/AgenteMobius/Agente\ Mobius\ Capa\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -164,6 +164,8 @@ nav{
     justify-content: flex-end;
     
 }
+
+
 
 .Titulo__Banner{
 
