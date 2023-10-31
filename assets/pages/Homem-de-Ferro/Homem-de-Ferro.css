@@ -154,7 +154,7 @@ nav{
 
 .Banner__Homem__de__Ferro{
     
-    background: url(/assets/images/Batman/Capa\ Banner\ batmam\ 2500px.png);
+    background: url(/assets/images/HomemdeFerro/BannerHomemdeFerro.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -212,7 +212,7 @@ main{
 
 #Imagem1__Section1{
 
-    width: 350px;
+    width: 290px;
 }
 
 
@@ -240,11 +240,11 @@ main{
 
 #Imagem1__Section2{
 
-    width: 450px;
+    width: 400px;
 }
 .Texto__Section2{
 
-    height: 600px;
+    height: 700px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -266,11 +266,11 @@ main{
 
 #Imagem1__Section3{
 
-    width: 350px;
+    width: 450px;
 }
 .Texto__Section3{
 
-    height: 600px;
+    height: 740px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -364,4 +364,6 @@ footer{
     font-size: 10px;
     padding-left: 170px;
     padding-top: 40px;
+    position: relative;
+    bottom: -26px;
 }
