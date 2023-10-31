@@ -214,7 +214,7 @@ main{
 
 #Imagem1__Section1{
 
-    width: 350px;
+    width: 300px;
 }
 
 
@@ -242,7 +242,7 @@ main{
 
 #Imagem1__Section2{
 
-    width: 450px;
+    width: 400px;
 }
 .Texto__Section2{
 
@@ -268,11 +268,11 @@ main{
 
 #Imagem1__Section3{
 
-    width: 350px;
+    width: 300px;
 }
 .Texto__Section3{
 
-    height: 600px;
+    height: 300px;
     width: 300px;
     display: flex;
     flex-direction: column;
