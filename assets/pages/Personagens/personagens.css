@@ -171,13 +171,31 @@ h2 {
     justify-content: flex-start;  
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1900px) {
 
+    .galeria__item {
+        display: flex;
+        flex-direction: column;
+        background-color: #202020;
+        border-radius: 0 0 50px 0;
+        width: 160px;
+        height: 300px;
+    }
     .galeria__item img {
-        width: 170px;
+
+        width: 160px;
         height: 250px;
         object-fit:cover;
     } 
+
+    .galeria__item p {
+        color: white;
+        text-align: left;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 20px 30px 30px 20px;
+        
+    }
     
 }
 
