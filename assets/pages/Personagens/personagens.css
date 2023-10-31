@@ -7,69 +7,124 @@
 
 }
 
-.body {
+body{
+
     overflow-x: hidden;
-}
-
-
-.cabeçalho {
-    height: 70px;
-    width: 100%;
-    border: 2px solid;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  
+.container{
+
+    max-width: 100%;
+    margin-left:5% ;
+    margin-right:5% ;
+    height: 73;  
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
     background-color: #202020;
-    text-decoration: none;
+   
 }
 
-.cabeçalho .links__cabeçalho {
+/* Links Cabeçalho*/
+
+header{
+
+    border-bottom: 1px solid ;
+    border-color: #747474;
+    background-color: #202020;
+}
+
+.Logo{
+ 
+    padding: 7px;
+    
+}
+
+#img__logo{
+
+    width: 215px;
+    height: 55px;
+}
+
+.link__a__esquerda{
+
+   display: flex;
+   width: 150px;
+   justify-content: center;
+   
+   
+}
+.fa-regular{
 
     color: white;
-    text-decoration: none;
-    position: relative;
-    top: 20px;
-    padding: 5px;
+}
+.Pesquisar{
+
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.link__cabeçalho__pesquisar{
+
+    font-size: 17px;
+}
+.link__cabeçalho__sing{
+    
+    margin-left: 2px;
+}
+.link__cabeçalho__join{
+    
+    margin-left: 20px;
+}
+ 
+#linkCabeçalho{ 
+
+   text-decoration: none;
+   color: white;
+   align-items: center;
+   justify-content: center;
 
 }
 
-.pesquisar__cabeçalho {
-    color: white;
-    text-decoration: none;
-    position: relative;
-    top: 20px;
+/* Nav*/
 
-}
+nav{
 
-.logo__cabeçalho {
-    margin-top: 7px;
-}
-
-.menu {
+    height: 30px;
     background-color: #151515;
-    color: #333;
-    display: flex;
-    padding: 2px;
-    justify-content: space-evenly;
-    list-style: none;
-    width: 100%;
+
 }
 
 
-/* Estiliza os links do menu */
-.menu a {
+
+.menu{
+
     display: flex;
-    color: white;
-    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style-type: none;
     padding: 5px;
     text-decoration: none;
-
+    text-decoration-line: none;
+    margin-left:5% ;
+    margin-right:5% ;
+    
 }
 
 /* Estiliza os links do menu quando eles são passados com o mouse */
+
 .menu a:hover {
+
     background-color: #202020;
     color: white;
-
+    height: 100px;
 }
 
 .banner__personagens {
@@ -86,24 +141,18 @@
 
 .banner__titulo {
     color: white;
-    width: 455px;
-    height: 40px;
     font-size: 70px;
     font-weight: bold;
-    padding-left: 450px;
-    padding-bottom: 50px;
-
+    text-align: center;
 
 }
 
 .banner__texto {
     color: white;
-    width: 500px;
-    height: 40px;
     font-size: 25px;
     font-weight: bold;
-    padding-left: 410px;
     padding-bottom: 200px;
+    text-align: center;
 
 }
 
@@ -111,6 +160,7 @@ h2 {
     margin: 50px 100px;
     font-size: 40px;
     font-weight: bold;
+    text-align: left;
 
 }
 
@@ -149,7 +199,6 @@ h2 {
     color: white;
     text-align: left;
     font-size: 15px;
-    font-weight: bold;
     padding: 20px 30px 30px 20px;
     
 }
