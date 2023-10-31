@@ -154,7 +154,7 @@ nav{
 
 .Banner__Aquaman{
     
-    background: url(/assets/images/Batman/Capa\ Banner\ batmam\ 2500px.png);
+    background: url(/assets/images/Aquaman/BannerAquaman.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -240,11 +240,11 @@ main{
 
 #Imagem1__Section2{
 
-    width: 450px;
+    width: 300px;
 }
 .Texto__Section2{
 
-    height: 600px;
+    height: 270px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -268,16 +268,22 @@ main{
 
     width: 350px;
 }
+
 .Texto__Section3{
 
-    height: 600px;
+    height: 130px;
     width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 200px;
     
-
+    
+    
 }
+
+
+
 
 /* TRAILER*/
 
