@@ -154,7 +154,7 @@ nav{
 
 .Banner__flash{
     
-    background: url(/assets/images/Batman/Capa\ Banner\ batmam\ 2500px.png);
+    background: url(/assets/images/Flash/BannerFlash1.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -218,7 +218,7 @@ main{
 
 .Texto__Section1{
 
-    height: 130px;
+    height: 300px;
     width: 320px;
     padding-top: 80px;
     display: flex;
@@ -240,7 +240,7 @@ main{
 
 #Imagem1__Section2{
 
-    width: 450px;
+    width: 370px;
 }
 .Texto__Section2{
 
@@ -270,11 +270,12 @@ main{
 }
 .Texto__Section3{
 
-    height: 600px;
+    height: 130px;
     width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 200px;
     
 
 }
@@ -364,4 +365,6 @@ footer{
     font-size: 10px;
     padding-left: 170px;
     padding-top: 40px;
+    position: relative;
+    bottom: -26px;
 }
