@@ -257,6 +257,7 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     text-align: justify;
+    padding-top: 85px;
 }
 
 .Texto__Section2 p {
