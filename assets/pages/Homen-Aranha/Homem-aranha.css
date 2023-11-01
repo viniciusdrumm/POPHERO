@@ -2,8 +2,6 @@
 
     margin: 0;
     padding: 0;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
    
 
@@ -57,7 +55,7 @@
 
 header{
 
-    border: 1px solid ;
+    border-bottom: 1px solid ;
     border-color: #747474;
     background-color: #202020;
 }
@@ -154,7 +152,7 @@ nav{
 
 .Banner__Homem__Aranha{
     
-    background: url(./../../assets/images/Batman/Capa\ Banner\ batmam\ 2500px.png);
+    background: url(./../../images/HomenAranha/BannerCapaHomemAranha\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
