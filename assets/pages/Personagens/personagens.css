@@ -90,6 +90,10 @@ header{
 
 }
 
+#linkCabeçalho:hover{
+    color: #EC1D24;
+}
+
 /* Nav*/
 
 nav{
@@ -254,6 +258,8 @@ h2 {
     border-radius: 0 0 50px 0;
     color: white;
 }
+
+
 
 #Titulos__Section{
 

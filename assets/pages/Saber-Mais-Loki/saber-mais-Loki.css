@@ -117,6 +117,10 @@ header{
 
 }
 
+#linkCabeçalho:hover{
+    color: #EC1D24;
+}
+
 /* Nav*/
 
 nav{
