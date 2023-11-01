@@ -196,7 +196,7 @@ h2 {
         height: 450px;
         overflow: hidden;
         overflow-x: scroll;
-        scroll-snap-type: x mandatory;
+        
         
     }
     
