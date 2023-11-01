@@ -126,7 +126,7 @@ nav{
 }
 
 .banner__personagens {
-    background-image: url(../../images/personagens/banner-personagens.png);
+    background-image: url(./../../images/personagens/banner-personagens.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
