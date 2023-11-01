@@ -154,7 +154,7 @@ nav{
 
 .Banner__Aquaman{
     
-    background: url(/assets/images/Aquaman/BannerAquaman.png);
+    background: url(./../../assets/images/Aquaman/BannerAquaman.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -370,4 +370,6 @@ footer{
     font-size: 10px;
     padding-left: 170px;
     padding-top: 40px;
+    position: relative;
+    bottom: -26px;
 }
