@@ -229,6 +229,9 @@ main{
 
 }
 
+.Texto__Section1 p {
+    text-align: justify;
+}
 .Section2{
 
     width: 60%;
@@ -254,6 +257,11 @@ main{
     justify-content: space-evenly;
 
 }
+
+.Texto__Section2 p {
+    text-align: justify;
+}
+
 .Section3{
 
   width: 60%;
@@ -279,6 +287,12 @@ main{
     
 
 }
+
+.Texto__Section3 p {
+    text-align: justify;
+    
+}
+
 
 /* TRAILER*/
 
