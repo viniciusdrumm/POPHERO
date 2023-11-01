@@ -210,13 +210,13 @@ main{
 
 #Imagem1__Section1{
 
-    width: 350px;
+    width: 400px;
 }
 
 
 .Texto__Section1{
 
-    height: 130px;
+    height: 200px;
     width: 320px;
     padding-top: 80px;
     display: flex;
@@ -238,11 +238,11 @@ main{
 
 #Imagem1__Section2{
 
-    width: 450px;
+    width: 300px;
 }
 .Texto__Section2{
 
-    height: 600px;
+    height: 510px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -268,12 +268,12 @@ main{
 }
 .Texto__Section3{
 
-    height: 600px;
+    height: 320px;
     width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    padding-top: 100px;
 
 }
 
