@@ -278,49 +278,81 @@ nav{
 }
 
 .botao__podcast1 {
-    background-image: url(../assets/images/home/botao-podcast1.png) ;
+
+    background-image: url(../assets/images/home/Botão-podcast-1.png) ;
     background-repeat: no-repeat;
     width: 100px;
-    height: 200px;
+    height: 50px;
     position: relative;
     top: -320px;
     left: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.botao__podcast1:hover{
+
+    background-image: url(../assets/images/home/Botão-podcast-1\ hover\ \(1\).png) ;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: -320px;
+    left: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
 
 }
 
 .botao__podcast2 {
-    background-image: url(../assets/images/home/botao-podcast2.png) ;
-    background-repeat:no-repeat;
-    width: 400px;
-    height: 200px;
-    position: relative;
-    top: -460px;
-    left: 450px;
 
+    background-image: url(../assets/images/home/Botão-podcast-2.png) ;
+    background-repeat:no-repeat;
+    width: 250px;
+    height: 50px;
+    position: relative;
+    top: -280px;
+    left: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.botao__podcast2:hover{
+
+    background-image: url(../assets/images/home/Botão-podcast-2\ hover.png) ;
+    background-repeat:no-repeat;
+    width: 250px;
+    height: 50px;
+    position: relative;
+    top: -280px;
+    left: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .podcast .podcast__link {
 
     color: white;
     text-decoration: none;
-    text-align: center;
-    position: relative;
-    left: 472px;
-    top: -505px;
-
-
+    
 }
 
 .podcast .podcast__link2 {
 
     color: white;
     text-decoration: none;
-    text-align: center;
-    position: relative;
-    left: 460px;
-    top: -645px;
-    padding: 10px;
-
+    
 }
 
 

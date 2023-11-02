@@ -226,14 +226,18 @@ h2 {
 
 
 .galeria__item {
-    display: flex;
+    
     flex-direction: column;
     background-color: #202020;
     border-radius: 0 0 50px 0;
     width: 200px;
     height: 350px;
     padding-bottom: 20px;
+    
+
 }
+
+
 
 .galeria__item img {
     width: 200px;
@@ -257,6 +261,8 @@ h2 {
     background-color: #EC1D24;
     border-radius: 0 0 50px 0;
     color: white;
+    scale: 1.05;
+    transition: 1.5s;
 }
 
 
