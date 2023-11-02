@@ -206,10 +206,10 @@ h2 {
     
     .galeria::-webkit-scrollbar{
 
-        padding-top: 20px;
+        
         background-color: #151515;
         border-radius: 10px;
-        width: 500px;
+        
     
     }
     
