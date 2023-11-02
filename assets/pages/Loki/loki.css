@@ -318,46 +318,59 @@ main{
 /* FOOTER*/
 
 footer{
-    height: 300px;
+
+    height: 290px;
     width: 100%;
-    background-color: #101010;
+    background-color: #202020;
+    
 }
 
 .rodape {
-    height: 350px;
+
+    height: 190px;
     width: 100%;
-    background-color: #101010;
+    background-color: #202020;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-
+    align-items: center;
+    
 
 }
 
+
+
 .Container__Links{
+
     display: flex;
+    width: 70%;
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
-    padding: 0px 100px 0px 100px;
+    
     
 }
 
 
 .rodape__redeSocial img{
+
     width: 32px;
     height: 32px;
     left: 20px;
-    
-    
+     
 }
 
 #Textos__rodape{
-    line-height: 40px;
+
+    line-height: 25px;
     font-size: 12px;
     
-    
+}
+
+#Textos__rodape:hover{
+   
+    color: #767676;
+
 }
 #Links__Rodape{
 
@@ -365,13 +378,12 @@ footer{
     text-decoration-line: none;
     color: white;
     
-
 }
 
 .rodape__logo{
-    position: relative;
-    left: 200px;
-    top: -20px;
+
+   padding: 20px 0px 0px 300px;
+
 }
 
 .Politicas__de__uso{
@@ -380,10 +392,16 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    color: white;
+    align-content: center;
+    color: #767676;
     font-size: 10px;
-    padding-left: 170px;
     padding-top: 40px;
     position: relative;
-    bottom: -26px;
+    bottom: -27px;
+}
+
+.Politicas__de__uso :hover{
+
+    color: white;
+
 }
