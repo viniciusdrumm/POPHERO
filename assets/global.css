@@ -236,6 +236,12 @@ nav{
     padding: 2px 0 0 5px;
 }
 
+.image-container .text:hover{
+
+    color: red;
+
+}
+
 
 .podcast {
     width: 100%;
@@ -323,6 +329,8 @@ article{
     display: flex;
     flex-direction: column;
     align-items:center;
+    
+    height: 1600px;
 
 }
 
@@ -353,25 +361,32 @@ article{
 }
 
 .novidades__imagem {
-    width: 650px;
-    height: 350px;
-    margin: 0px 0px 0px 0px;
 
-
+    width: 480px;
+    height: 300px;
+    
 }
 
 .novidades p {
+
     color: black;
     position: relative;
-    left: 780px;
-    top: -355px;
+    left: 520px;
+    top: -300px;
     width: 400px;
     height: 60px;
     font-size: 25px;
     font-weight: bold;
 }
 
+.novidades p:hover{
+
+   color: #EC1D24;
+
+}
+
 .novidades2 {
+
     width: 100%;
     height: 800px;
     background-color: #141414;
@@ -381,6 +396,7 @@ article{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .Videos__novidades2{
