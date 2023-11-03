@@ -87,12 +87,11 @@ header{
    color: white;
    align-items: center;
    justify-content: center;
+   font-size: 13px;
 
 }
 
-#linkCabeçalho:hover{
-    color: #EC1D24;
-}
+
 
 /* Nav*/
 
@@ -100,6 +99,7 @@ nav{
 
     height: 30px;
     background-color: #151515;
+    
 
 }
 
@@ -110,9 +110,8 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-content: center;
     list-style-type: none;
-    padding: 5px;
+    padding: 7px;
     text-decoration: none;
     text-decoration-line: none;
     margin-left:5% ;
@@ -122,11 +121,14 @@ nav{
 
 /* Estiliza os links do menu quando eles são passados com o mouse */
 
-.menu a:hover {
-
-    background-color: #202020;
-    color: white;
-    height: 100px;
+.link__Nav:hover{
+    
+    
+    height: 20px;
+    border-bottom: 1.5px solid;
+    border-color: #EC1D24;
+    
+    
 }
 
 .Banner__Loki {
@@ -157,33 +159,54 @@ nav{
 }
 
 .botao__banner1 {
+
     background-image: url(./images/home/botao.png) ;
     background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
+    
+    width: 130px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     top: 350px;
     left: 100px;
+    
+}
+
+.botao__banner1:hover {
+
+    scale: 1.05;
+    transition: 1s;
+
 }
 
 .botao__banner2 {
     background-image: url(./images/home/botao.png) ;
     background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 150px;
+    top: 297px;
     left: 260px;
+}
+
+.botao__banner2:hover {
+
+    scale: 1.05;
+    transition: 1s;
+
 }
 
 
 .Banner__Link {
     color: rgb(255, 255, 255);
     position: relative;
-    left: 85px;
-    top: -30px;
     text-decoration: none;
-    padding: 0 40px 0 30px
+    
 
 }
 
