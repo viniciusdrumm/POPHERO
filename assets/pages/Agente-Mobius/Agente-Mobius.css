@@ -115,9 +115,7 @@ header{
 
 }
 
-#linkCabeçalho:hover{
-    color: #EC1D24;
-}
+
 
 /* Nav*/
 
@@ -147,11 +145,13 @@ nav{
 
 /* Estiliza os links do menu quando eles são passados com o mouse */
 
-.menu a:hover {
-
-    background-color: #202020;
-    color: white;
-    height: 100px;
+.link__Nav:hover{
+    
+    
+    height: 20px;
+    border-bottom: 1.5px solid;
+    border-color: #EC1D24;
+      
 }
 
 /*Banner*/
