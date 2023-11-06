@@ -160,7 +160,7 @@ nav{
 
     height: 730px;
     text-align: center;
-    background: url(./../../images/saberMais/BannersaberMaisLokiS2.png);
+    background: url(./../../images/saberMais/Banner-Capa-Loki2.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -174,7 +174,7 @@ nav{
     height: 55px;
     background: url('./../../images/saberMais/Botão\ Assista\ Agora.png');
     position: relative;
-    left: 400px;
+    left: 240px;
     bottom: 310px;
     display: flex;
     justify-content: center;
@@ -192,15 +192,20 @@ nav{
 .Logo__Loki{
 
     position: relative;
-    bottom: 400px;
-    left: 40px;
+    bottom: 350px;
+    left: -100px;
 }
 
 .Logo__Loki_1{
 
     position: static;
-    left: -100px;
     
+    
+}
+
+.Logo__Loki_1 img {
+
+    width: 400px;
 }
 
 /* SECTION*/
