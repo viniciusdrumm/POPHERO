@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+  }
+
+  main{
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .colunaDireira{
+
+    width: 20%;
+    height: 100%;
+
+  }
+
+  .colunaEsquerda{
+
+    width: 20%;
+    height: 100%;
+
+  }
+
+  body{
+
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  
+.container{
+
+    max-width: 100%;
+    margin-left:5% ;
+    margin-right:5% ;
+    height: 73;  
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #202020;
+   
+}
+
+/* Links Cabeçalho*/
+
+header{
+
+    border-bottom: 1px solid ;
+    border-color: #747474;
+    background-color: #202020;
+
+}
+
+.Logo{
+  
+    padding: 7px;
+
+}
+
+#img__logo{
+
+    width: 215px;
+    height: 55px;
+}
+
+.link__a__esquerda{
+
+   display: flex;
+   width: 150px;
+   justify-content: center;
+     
+}
+
+.fa-regular{
+
+    color: white;
+}
+
+.Pesquisar{
+
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.link__cabeçalho__pesquisar{
+
+    font-size: 17px;
+}
+
+.link__cabeçalho__sing{
+    
+    margin-left: 2px;
+}
+
+.link__cabeçalho__join{
+    
+    margin-left: 20px;
+}
+
+#linkCabeçalho{
+
+   text-decoration: none;
+   color: white;
+   align-items: center;
+   justify-content: center;
+
+}
+
+/* Nav*/
+
+nav{
+
+    height: 30px;
+    background-color: #151515;
+
+}
+
+
+
+.menu{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style-type: none;
+    padding: 5px;
+    text-decoration: none;
+    text-decoration-line: none;
+    margin-left:5% ;
+    margin-right:5% ;
+    
+}
+
+/* Estiliza os links do menu quando eles são passados com o mouse */
+
+.link__Nav:hover{
+    
+    
+    height: 20px;
+    border-bottom: 1.5px solid;
+    border-color: #EC1D24;
+      
+}
+
+/* Banner*/
+
+.Banner__Loki{
+
+    height: 730px;
+    text-align: center;
+    background: url(./../../images/saberMais/BannersaberMaisLokiS2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: self-end;
+
+}
+
+.Botão__Banner{
+
+    width: 130px;
+    height: 55px;
+    background: url('./../../images/saberMais/Botão\ Assista\ Agora.png');
+    position: relative;
+    left: 400px;
+    bottom: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Botão__assistirAgora{
+
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+     
+}
+
+.Logo__Loki{
+
+    position: relative;
+    bottom: 400px;
+    left: 40px;
+}
+
+.Logo__Loki_1{
+
+    position: static;
+    left: -100px;
+    
+}
+
+/* SECTION*/
+
+section{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Section__Container{
+    
+    width: 60%;
+    display: grid;
+    grid-template-columns:400px 1fr;
+    grid-template-areas:
+     'titulo titulo'
+     'imagem texto'
+     'imagem texto'
+     'logo texto'
+      ;
+
+     column-gap: 50px;
+     row-gap: 30px;
+     justify-content: center;
+     
+
+}
+
+.titulo{
+
+    grid-area: titulo;
+    
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.imagem{
+
+    grid-area: imagem;
+   
+
+}
+.imagem img{
+    width: 400px;
+}
+.texto{
+
+    grid-area: texto;
+    
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 120px 20px 200px 20px 200px;
+    grid-template-areas: 
+    'Texto__Section__1 Texto__Section__1 Texto__Section__1'
+    'Titulos__Textos_1 Titulos__Textos_2 Titulos__Textos_3'
+    'P1__section2 P2__section2 P3__section2'
+    'Titulos__Textos_4 Titulos__Textos_5 Titulos__Textos_6'
+     'P1__section3 P2__section3 P3__section3';
+
+     gap: 10px;
+}
+
+.logo{
+
+    grid-area: logo;
+    
+}
+
+.logo img{
+    width: 400px;
+    height: 250px;
+}
+
+
+
+.Texto__Section__1{
+    grid-area: Texto__Section__1;
+}
+
+.Titulos__Textos_1 {
+    grid-area: Titulos__Textos_1 ;
+}
+
+.Titulos__Textos_2 {
+    grid-area: Titulos__Textos_2 ;
+}
+
+.Titulos__Textos_2 {
+    grid-area: Titulos__Textos_2;
+}
+
+.P1__section2 {
+    grid-area: P1__section2 ;
+}
+
+.P2__section2 {
+    grid-area: P2__section2 ;
+}
+
+.P3__section2 {
+    grid-area: P3__section2 ;
+}
+
+.Titulos__Textos_4 {
+    grid-area: Titulos__Textos_4 ;
+}
+
+.Titulos__Textos_5 {
+    grid-area: Titulos__Textos_5 ;
+}
+
+.Titulos__Textos_6 {
+    grid-area: Titulos__Textos_6 ;
+}
+
+.P1__section3{
+    grid-area: P1__section3;
+}
+
+.P2__section3{
+    grid-area: P2__section3;
+}
+
+.P3__section3{
+    grid-area: P3__section3;
+}
+
+
+
+.faixa{
+
+    background-color: #151515;
+    
+    width: 100%;
+}
+
+.trailer{
+  
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -200px;
+}
+
+.Titulo__Trailer{
+
+    color: white;
+    width: 100%;
+    padding-bottom: 30px;
+    
+
+}
+
+.Titulo__Trailer h1{
+
+    font-size: 50px;
+}
+
+/* FOOTER*/
+
+footer{
+
+    height: 290px;
+    width: 100%;
+    background-color: #202020;
+    
+}
+
+.rodape {
+
+    height: 190px;
+    width: 100%;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+
+.Container__Links{
+
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+}
+
+
+.rodape__redeSocial img{
+
+    width: 32px;
+    height: 32px;
+    left: 20px;
+     
+}
+
+#Textos__rodape{
+
+    line-height: 25px;
+    font-size: 12px;
+    
+}
+
+#Textos__rodape:hover{
+   
+    color: #767676;
+
+}
+#Links__Rodape{
+
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+    
+}
+
+.rodape__logo{
+
+   padding: 20px 0px 0px 300px;
+
+}
+
+.Politicas__de__uso{
+
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    color: #767676;
+    font-size: 10px;
+    padding-top: 40px;
+    position: relative;
+    bottom: -27px;
+}
+
+.Politicas__de__uso :hover{
+
+    color: white;
+
+}
