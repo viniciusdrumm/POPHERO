@@ -213,13 +213,68 @@ nav{
     width: 350px;
 }
 
+.Texto__Section1{
+
+    height: 290px;
+    width: 320px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
 
 .chamada__filme{
+
     background: url(./../../images/Aquaman/faixa-chaamada\ de\ file-ou-serie.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #151515;
+    width: 100%;
+    height:450px;
+    
+    
 }
+
+#imagem_faixa{
+
+    height: 440px;
+}
+
+#Logo-Aquaman{
+
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+}
+
+.Botao__Faixa{
+
+    display: flex;
+    background: url(./../../images/Aquaman/Botão-podcast-1.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 56px;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1035px;
+    bottom: 120px;
+    
+}
+
+.Botao__Faixa a{
+
+    text-decoration-line: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
 
 .conexoes{
 
@@ -347,7 +402,7 @@ nav{
     width: 60%;
     display: flex;
     flex-direction: row;
-    padding: 70px 0px 100px 0px;
+    padding: 200px 0px 100px 0px;
     justify-content: space-evenly;
     
 
