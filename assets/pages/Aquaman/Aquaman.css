@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400&display=swap');
+
 * {
 
     margin: 0;
@@ -169,6 +171,9 @@ nav{
     width: 100px;
 
 }
+
+
+
 .Texto__Banner{
     color: white;
     width: 400px;
@@ -177,12 +182,22 @@ nav{
     padding-bottom: 100px;
     
 }
+
+.Texto__Banner p{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
 .Conteudo__titulo__banner{
     color: white;
     padding-left: 150px;
     padding-bottom: 10px;
     font-size: 60px;
+    font-family: 'Noto Sans', sans-serif;
 }
+
+
 
 /*Main*/
 
@@ -215,7 +230,7 @@ nav{
 
 .Texto__Section1{
 
-    height: 290px;
+    height: 350px;
     width: 320px;
     padding-top: 50px;
     display: flex;
@@ -224,7 +239,9 @@ nav{
 
 }
 
-
+.Texto__Section1 p{
+    font-family: 'Noto Sans', sans-serif;
+}
 
 .chamada__filme{
 
@@ -327,6 +344,23 @@ nav{
     top: 200px;
     gap: 20px;
       
+}
+
+.galeria::-webkit-scrollbar{
+
+        
+    background-color: #151515;
+    border-radius: 10px;
+    
+
+}
+
+.galeria::-webkit-scrollbar-thumb{
+
+  background-color: #EC1D24;
+  border-radius: 10px;
+  
+  
 }
 
 @media screen and (max-width: 1500px) {
@@ -432,15 +466,28 @@ nav{
 }
 .Texto__Section2{
 
-    height: 270px;
+    height: 470px;
     width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  
     
-    
-
 }
+
+.Texto__Section2 h2{
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 50px;
+    
+}
+
+.Texto__Section2 p{
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
 .Section3{
 
   width: 60%;
@@ -465,12 +512,16 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     padding-top: 200px;
-    
-    
-    
+     
 }
 
+.Texto__Section3 h2{
+    font-family: 'Noto Sans', sans-serif;
+}
 
+.Texto__Section3 p{
+    font-family: 'Noto Sans', sans-serif;
+}
 
 
 /* TRAILER*/
