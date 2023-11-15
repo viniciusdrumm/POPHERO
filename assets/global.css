@@ -632,17 +632,24 @@ article{
     left: 0px;
     top: 50px;
     display: flex;
-    
+    flex-direction: column;
     
 
 }
+
+
 
 .video2 ul {
   
     overflow: hidden;
     overflow-y: scroll;
     padding-right: 15px;
+    
 
+}
+
+.video2__video{
+    padding-top:10px;
 }
 
 .video2 ul::-webkit-scrollbar{
@@ -651,6 +658,7 @@ article{
     background-color: white;
     border-radius: 10px;
     width: 10px;
+    
     
 
 }
