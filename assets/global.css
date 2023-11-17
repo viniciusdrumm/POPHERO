@@ -54,6 +54,8 @@ header{
    display: flex;
    width: 150px;
    justify-content: center;
+   position: relative;
+   right: 250px;
    
    
 }
@@ -66,6 +68,8 @@ header{
     width: 200px;
     display: flex;
     justify-content: center;
+    position: relative;
+    left: 250px;
     
 }
 .link__cabeçalho__pesquisar{
@@ -197,7 +201,7 @@ p {
 .titulo {
     color: black;
     font-size: 55px;
-    margin: -76px 0px 10px 0;
+    margin: -76px 0px 10px 100px;
     font-weight: bolder;
     align-items: start;
 
@@ -206,7 +210,7 @@ p {
 .titulo2 {
     color: black;
     font-size: 55px;
-    margin: -76px 0px 10px 0;
+    margin: -76px 0px 10px 100px;
     font-weight: bolder;
     align-items: start;
 
@@ -265,7 +269,8 @@ p {
 .podcast {
     width: 100%;
     height: 800px;
-    background: url(../assets/images/home/background-podcast.png) no-repeat;    
+    background-image: url(../assets/images/home/background-podcast.png);    
+    background-repeat: no-repeat;
     background-position: 0px 80px;
 }
 
@@ -396,7 +401,6 @@ article{
     
     width: 70%;
     display: flex; 
-    
     text-decoration: none;
     flex-direction: column;
     justify-content: center;
@@ -417,9 +421,8 @@ article{
 .novidades__titulo {
 
     color: black;
-    font-size: 45px;
-    font-weight: bolder;
-    margin: 20px 0px 80px 0px;
+    font-size: 40px;
+    margin: 20px 0px 50px 0px;
     
    
 }
@@ -456,11 +459,11 @@ article{
 .novidades2 {
 
     width: 100%;
-    height: 750px;
+    height: 800px;
     background-color: #141414;
     background-image: url(../assets/images/home/Background-videos-3.png);
-    background-repeat: repeat ;
-    margin-top: 380px;
+    background-repeat: no-repeat ;
+    margin-top: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -565,7 +568,7 @@ article{
     width: 520px;
     height: 20px;
     font-size: 17px;
-    padding: 10px 0px 40px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 .video__texto3 {
@@ -575,14 +578,14 @@ article{
     width: 500px;
     height: 72px;
     font-size: 13px;
-
+    padding-top: 27px;
 }
 
 /* FOOTER*/
 
 footer{
 
-    height: 320px;
+    height: 290px;
     width: 100%;
     background-color: #202020;
     
@@ -609,9 +612,15 @@ footer{
     width: 70%;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-around;
-    
-    
+    justify-items: center;
+ 
+}
+
+
+.rodape__links{
+    width: 300px;
+    padding-left: 120px;
+    padding-top: 80px;
 }
 
 
@@ -619,7 +628,8 @@ footer{
 
     width: 32px;
     height: 32px;
-    left: 20px;
+    position: relative;
+    right: 50px;
      
 }
 
@@ -640,6 +650,10 @@ footer{
     text-decoration: none;
     text-decoration-line: none;
     color: white;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 27px;
     
 }
 
@@ -651,7 +665,7 @@ footer{
 
 .Politicas__de__uso{
 
-    width: 80%;
+    width: 65%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -660,8 +674,9 @@ footer{
     font-size: 10px;
     padding-top: 40px;
     position: relative;
-    bottom: -30px;
-    left: 100px;
+    bottom: 16px;
+    left: 120px;
+    
 }
 
 .Politicas__de__uso :hover{
