@@ -55,7 +55,6 @@ header{
    width: 150px;
    justify-content: center;
    position: relative;
-   right: 250px;
    
    
 }
@@ -69,7 +68,6 @@ header{
     display: flex;
     justify-content: center;
     position: relative;
-    left: 250px;
     
 }
 .link__cabeçalho__pesquisar{
