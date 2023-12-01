@@ -465,7 +465,7 @@ article{
     background-color: #141414;
     background-image: url(../assets/images/home/Background-videos-3.png);
     background-repeat: no-repeat ;
-    margin-top: 320px;
+    margin-top: 370px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -480,7 +480,8 @@ article{
     display: flex;
     flex-direction: row;
     gap: 50px;
-    
+    margin-top: 50px;
+
     
     
 }
@@ -621,7 +622,7 @@ footer{
 
 
 .rodape__links{
-    width: 300px;
+    width: 250px;
     padding-left: 200px;
     padding-top: 70px;
 }
@@ -629,10 +630,11 @@ footer{
 
 .rodape__redeSocial img{
 
-    width: 33px;
-    height: 32px;
+    width: 23px;
+    height: 23px;
     position: relative;
-    right: -50px;
+    right: -60px;
+    
      
 }
 
