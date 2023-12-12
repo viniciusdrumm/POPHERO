@@ -218,15 +218,19 @@ main{
 }
 
 
-.Texto__Section1{
+.Texto__Section1 {
 
-    height: 230px;
+    height: 350px;
     width: 320px;
     padding-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
+}
+
+#texto{
+    row-gap: 10px;
 }
 
 .Section2{
