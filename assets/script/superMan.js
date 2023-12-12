@@ -11,11 +11,11 @@ function exibeDados(dados)
     let elemento = document.createElement('div')
 
     elemento.innerHTML = `
-    <p id="texto"> Nome: ${dados.biography.fullName}</p>
-    <p id="texto"> Local de Nascimento: ${dados.biography.placeOfBirth}</p>
-    <p id="texto"> Primeira Aparição: ${dados.biography.firstAppearance}</p>
-    <p id="texto"> Conexões: ${dados.connections.groupAffiliation}</p>
-    <p id="texto"> Parentes: ${dados.connections.relatives}</p>
+    <p id="texto"> <b>Nome:</b> ${dados.biography.fullName}</p>
+    <p id="texto"> <b>Local de Nascimento:</b> ${dados.biography.placeOfBirth}</p>
+    <p id="texto"> <b>Primeira Aparição:</b> ${dados.biography.firstAppearance}</p>
+    <p id="texto"> <b>Conexões:</b> ${dados.connections.groupAffiliation}</p>
+    <p id="texto"> <b>Parentes:</b> ${dados.connections.relatives}</p>
    
     
     
