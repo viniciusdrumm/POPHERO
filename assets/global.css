@@ -52,8 +52,9 @@ header{
 .link__a__esquerda{
 
    display: flex;
-   width: 150px;
+   width: 100px;
    justify-content: center;
+   left: -100px;
    
 }
 
@@ -67,7 +68,7 @@ header{
     display: flex;
     justify-content: center;
     position: relative;
-    right: -25px;
+    right: -100px;
     
 }
 .link__cabeçalho__pesquisar{
