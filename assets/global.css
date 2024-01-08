@@ -198,6 +198,9 @@ nav{
     margin: -76px 0px 10px 0px;
     font-weight: bolder;
     align-items: start;
+    border-bottom: 2px solid #EC1D24 ;
+    width: 215px;
+
 
 }
 
@@ -207,6 +210,8 @@ nav{
     margin: -76px 0px 10px 0px;
     font-weight: bolder;
     align-items: start;
+    border-bottom: 2px solid #EC1D24 ;
+    width: 75px;
 
 }
 
@@ -283,6 +288,7 @@ nav{
     top: -430px;
     font-size: 55px;
     font-weight: bolder;
+    
 }
 
 .podcast__texto {
@@ -419,6 +425,9 @@ article{
     font-size: 45px;
     margin: 20px 0px 80px 0px;
     font-weight: bolder;
+    border-bottom: 2px solid #EC1D24 ;
+    width: 245px;
+
 
 }
 
