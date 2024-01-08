@@ -428,6 +428,7 @@ article{
     width: 480px;
     height: 300px;
     cursor: pointer;
+    border: #151515 4px solid;
 
 }
 
@@ -436,7 +437,7 @@ article{
     color: black;
     position: relative;
     left: 520px;
-    top: -300px;
+    top: -305px;
     width: 400px;
     height: 60px;
     font-size: 25px;
@@ -474,8 +475,7 @@ article{
     flex-direction: row;
     gap: 50px;
     margin-top: 50px;
-
-    
+   
     
 }
 
