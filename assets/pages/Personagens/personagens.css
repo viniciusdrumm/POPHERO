@@ -367,6 +367,7 @@ footer{
     width: 32px;
     height: 32px;
     left: 20px;
+    top: -15px;
      
 }
 
@@ -413,5 +414,31 @@ footer{
 .Politicas__de__uso :hover{
 
     color: white;
+
+}
+
+.newsletter-container p {
+    color: white;
+    padding-bottom: 2px;
+    font-size: 13px;
+}
+
+.newsletter-container input[type="email"] {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 90%;
+    font-size: 13px;
+}
+.newsletter-container button[type="submit"] {
+    padding: 1px;
+    background-color: #000000;
+    color: #fff;
+    border-style: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    width: 25%;
 
 }
